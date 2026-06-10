@@ -1,0 +1,28 @@
+{
+  "tool": "pytesseract",
+  "source_pdf": "johnsnow_medium_0.pdf",
+  "status": "OCR_OK",
+  "reason": null,
+  "pages": [
+    {
+      "page": 1,
+      "text": "Patient Name : Susan Frances Martin Date Of Birth : 09/03/1951\n\nCoordinator For Healthplans - Encounter Summary for Susan\n\nFrances Martin, Electronically signed by Dr. Brittany Gallagher,\nFNP-C\n\nSocial Security Number\n103-15-0825\n\nEncounter\n\nDate of Start Service\n07/04/1952\n\nEncounter Participant\nDr. Brittany Gallagher\nContact\n\n5891 Kenneth Ports, New Amandafort, Wyoming United States - 97375 Tel: (253)\n095-5181\n\nAppointment Confirmation\nProvider: Dr. Brittany Gallagher, MD.\nConfirmed On: 30/10/1952 09:58 PM\nLocation:\n\n577 Norman Villages, North Bradleytown, Oklahoma United States - 55962\nPh. tel: (297) 476-3913\n\nTable Of Contents:\nPaitnet Summary\nPatient Demographics\nPatient Lifestyle\nPatient Vitals\n\nDoctor Information\nDoctor Notes\n\nPast Hospital Visit\nCurrent Medications\nMedical Tests\n\nPatient Summary\n\nSusan Frances Martin, born on 09/03/1951, is a 74-year-old female patient. Her medical\njourney includes management of Osteoarthritis. She has a history of regular hospital visits\nfor check-ups and treatments related to her condition. Her current health status is stable\nwith ongoing management and monitoring of her symptoms.",
+      "char_count": 1141
+    },
+    {
+      "page": 2,
+      "text": "Patient Name : Susan Frances Martin Date Of Birth : 09/03/1951\n\nPatient Demographics\n\nName: Susan\nFrances\nMartin\n\nDOB:\n09/03/1951\n\nAge: 74\nSex: Female\n\nSSN: 103-15-0825\n\nHospital ID: HOSP20831933\n\nPatient Lifestyle\n\n‘Smoking Status: Never\n\nAlcohol Consumption: Rarely\nDiet Preference: Diabetic-friendly\nExercise Habits: Mild\n\nPatient Vitals\n\nHeart Rate: 72\n\nRespiratory Rate: 16\nTemperature Celsius: 36.8\nOxygen Saturation Percent: 98\nBlood Pressure: 130/85 mmHg\nRecorded Date: 26/10/2023\n\nDoctor Information\nDoctor Name: Brittany Gallagher\nDoctor Unique ID: DR94303A\n\nDoctor Notes\n\nSubjective Observations: Patient reports manageable pain levels with current medication\nregimen. Reports improved mobility with physical therapy sessions.\n\nAssesment: Osteoarthritis is stable. Patient adhering to treatment plan. No new concerns",
+      "char_count": 827
+    },
+    {
+      "page": 3,
+      "text": "Patient Name : Susan Frances Martin Date Of Birth : 09/03/1951\n\nreported.\n\nRecommendations: Continue current medication regimen and physical therapy. Monitor pain\nlevels and adjust medication as needed.\n\nFollow Up Instruction: Follow-up appointment scheduled in 3 months for routine check-up and\nmedication review.\n\nPast Hospital Visits\n\nDate Reason\n\n1510972023 Osteoarthritis follow-up\n‘01/08/2023 Physical therapy session\n1810772023 Pain management consultation\n03/07/2023 Routine check-up\n\n20106/2023 Medication review\n‘05/06/2023 X-ray of knee joint\n\nCurrent Medications\n\nMedication Summary Dosage Frequency\nAcetaminophen 00mg Twice daily\nIbuprofen 200mg As needed for pain\nVitamin D. 200010 Daily\n\nCalcium Carbonate 500mg Daily\nGlucosamine 1500mg Daily\n‘Chondroitin 1200mg. Daily\nMedical Tests\n\nMedication Test Status On/Last\n\n‘Complete Blood Count (CBC) Done 20/10/2023",
+      "char_count": 875
+    },
+    {
+      "page": 4,
+      "text": "Patient Name : Susan Frances Martin Date Of Birth : 09/03/1951\n\n‘Comprehensive Metabolic Panel (CMP) Done 20/10/2023\nLipid Panel Done 20/10/2023\nUric Acid Test Done 20/10/2023\nInflammatory Markers (CRP, ESR) Pending 27/0/2023\n\nVitamin D Level Done 20/10/2023",
+      "char_count": 258
+    }
+  ]
+}

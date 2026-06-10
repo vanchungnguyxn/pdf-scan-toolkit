@@ -1,0 +1,677 @@
+{
+  "tool": "pymupdf_layout_blocks",
+  "source_pdf": "johnsnow_easy_0.pdf",
+  "pages": [
+    {
+      "page": 1,
+      "blocks": [
+        {
+          "bbox": [
+            93.54,
+            6.47,
+            144.67,
+            62.76
+          ],
+          "text": "Healthcare\nRecovery\nTrauma\nCenter",
+          "char_count": 33
+        },
+        {
+          "bbox": [
+            413.86,
+            6.64,
+            557.17,
+            34.16
+          ],
+          "text": "Kimberly Lawrence     24/05/1977\nSierra Valley Medical Institute INC",
+          "char_count": 68
+        },
+        {
+          "bbox": [
+            31.19,
+            85.36,
+            113.99,
+            100.59
+          ],
+          "text": "Patient Summary",
+          "char_count": 15
+        },
+        {
+          "bbox": [
+            31.19,
+            108.69,
+            564.1,
+            122.03
+          ],
+          "text": "Kimberly Lawrence, born on 24/05/1977, is a 46-year-old Female. Her medical journey indicates a diagnosis of Type 2 Diabetes",
+          "char_count": 124
+        },
+        {
+          "bbox": [
+            31.19,
+            125.7,
+            564.1,
+            139.04
+          ],
+          "text": "Mellitus accompanied by Peripheral Neuropathy. Current management focuses on glycemic control through medication and lifestyle",
+          "char_count": 126
+        },
+        {
+          "bbox": [
+            31.19,
+            142.71,
+            564.11,
+            156.05
+          ],
+          "text": "adjustments, with regular monitoring for neuropathy progression. Overall, the patient health status is stable with ongoing",
+          "char_count": 122
+        },
+        {
+          "bbox": [
+            31.19,
+            159.71,
+            172.28,
+            173.05
+          ],
+          "text": "management of chronic conditions.",
+          "char_count": 33
+        },
+        {
+          "bbox": [
+            31.19,
+            193.08,
+            135.37,
+            208.31
+          ],
+          "text": "Patient Demographics",
+          "char_count": 20
+        },
+        {
+          "bbox": [
+            31.19,
+            214.99,
+            98.68,
+            242.5
+          ],
+          "text": "Name: Kimberly\nLawrence",
+          "char_count": 23
+        },
+        {
+          "bbox": [
+            31.19,
+            249.01,
+            103.14,
+            262.35
+          ],
+          "text": "DOB: 24/05/1977",
+          "char_count": 15
+        },
+        {
+          "bbox": [
+            31.19,
+            268.85,
+            63.13,
+            282.19
+          ],
+          "text": "Age: 46",
+          "char_count": 7
+        },
+        {
+          "bbox": [
+            31.19,
+            288.69,
+            80.91,
+            302.03
+          ],
+          "text": "Sex: Female",
+          "char_count": 11
+        },
+        {
+          "bbox": [
+            31.19,
+            308.53,
+            106.47,
+            321.87
+          ],
+          "text": "SSN: 567-45-5412",
+          "char_count": 16
+        },
+        {
+          "bbox": [
+            31.19,
+            328.38,
+            148.97,
+            341.72
+          ],
+          "text": "Hospital ID: HOSP26508961",
+          "char_count": 25
+        },
+        {
+          "bbox": [
+            31.19,
+            371.66,
+            107.87,
+            386.89
+          ],
+          "text": "Patient Lifestyle",
+          "char_count": 17
+        },
+        {
+          "bbox": [
+            31.19,
+            393.57,
+            123.97,
+            406.91
+          ],
+          "text": "Smoking Status: Never",
+          "char_count": 21
+        },
+        {
+          "bbox": [
+            31.19,
+            413.41,
+            151.75,
+            426.75
+          ],
+          "text": "Alcohol Consumption: Rarely",
+          "char_count": 27
+        },
+        {
+          "bbox": [
+            31.19,
+            433.26,
+            167.81,
+            446.6
+          ],
+          "text": "Diet Preference: Diabetic-friendly",
+          "char_count": 34
+        },
+        {
+          "bbox": [
+            31.19,
+            453.1,
+            118.96,
+            466.44
+          ],
+          "text": "Exercise Habits: Mild",
+          "char_count": 21
+        },
+        {
+          "bbox": [
+            31.19,
+            496.39,
+            95.04,
+            511.62
+          ],
+          "text": "Patient Vitals",
+          "char_count": 14
+        },
+        {
+          "bbox": [
+            31.19,
+            518.3,
+            89.51,
+            531.64
+          ],
+          "text": "Heart Rate: 72",
+          "char_count": 14
+        },
+        {
+          "bbox": [
+            31.19,
+            538.14,
+            113.96,
+            551.48
+          ],
+          "text": "Respiratory Rate: 16",
+          "char_count": 20
+        },
+        {
+          "bbox": [
+            31.19,
+            557.98,
+            137.01,
+            571.32
+          ],
+          "text": "Temperature Celsius: 36.7",
+          "char_count": 25
+        },
+        {
+          "bbox": [
+            31.19,
+            577.82,
+            154.23,
+            591.16
+          ],
+          "text": "Oxygen Saturation Percent: 98",
+          "char_count": 29
+        },
+        {
+          "bbox": [
+            31.19,
+            597.67,
+            155.36,
+            611.01
+          ],
+          "text": "Blood Pressure: 130/85 mmHg",
+          "char_count": 27
+        },
+        {
+          "bbox": [
+            31.19,
+            617.51,
+            141.73,
+            630.85
+          ],
+          "text": "Recorded Date: 15/11/2024",
+          "char_count": 25
+        },
+        {
+          "bbox": [
+            31.19,
+            660.8,
+            123.76,
+            676.03
+          ],
+          "text": "Doctor Information",
+          "char_count": 18
+        },
+        {
+          "bbox": [
+            31.19,
+            682.71,
+            90.62,
+            724.39
+          ],
+          "text": "Doctor Name:\nCheryl\nBlankenship",
+          "char_count": 31
+        },
+        {
+          "bbox": [
+            31.19,
+            730.9,
+            106.73,
+            758.41
+          ],
+          "text": "Doctor Unique ID:\nDR14144B",
+          "char_count": 26
+        },
+        {
+          "bbox": [
+            138.21,
+            791.84,
+            457.07,
+            805.18
+          ],
+          "text": "Sierra  Valley Medical Institute INC          (402) 738-5912                22/04/2025",
+          "char_count": 86
+        }
+      ],
+      "block_count": 30,
+      "char_count": 1073
+    },
+    {
+      "page": 2,
+      "blocks": [
+        {
+          "bbox": [
+            93.54,
+            6.47,
+            144.67,
+            62.76
+          ],
+          "text": "Healthcare\nRecovery\nTrauma\nCenter",
+          "char_count": 33
+        },
+        {
+          "bbox": [
+            413.86,
+            6.64,
+            557.17,
+            34.16
+          ],
+          "text": "Kimberly Lawrence     24/05/1977\nSierra Valley Medical Institute INC",
+          "char_count": 68
+        },
+        {
+          "bbox": [
+            31.19,
+            85.36,
+            92.58,
+            100.59
+          ],
+          "text": "Doctor Notes",
+          "char_count": 12
+        },
+        {
+          "bbox": [
+            31.19,
+            107.27,
+            564.11,
+            148.96
+          ],
+          "text": "Subjective Observations: Patient reports stable blood sugar levels and controlled peripheral neuropathy symptoms with current\nmedication regimen. Reports following a diabetic-friendly diet and mild exercise routine. Denies any recent episodes of\nhypoglycemia or hyperglycemia. Complains of occasional tingling in feet.",
+          "char_count": 318
+        },
+        {
+          "bbox": [
+            31.19,
+            155.46,
+            564.11,
+            182.98
+          ],
+          "text": "Assesment: Patient presents with well-managed Type 2 Diabetes Mellitus and stable Peripheral Neuropathy. Lipid profile and renal\nfunction are within acceptable ranges. ECG shows no significant abnormalities.",
+          "char_count": 207
+        },
+        {
+          "bbox": [
+            31.19,
+            189.48,
+            564.1,
+            216.99
+          ],
+          "text": "Recommendations: Continue current medication regimen. Reinforce adherence to diabetic diet and exercise plan. Consider adjusting\nGabapentin dosage if tingling becomes bothersome. Consider physical therapy consultation for neuropathy.",
+          "char_count": 233
+        },
+        {
+          "bbox": [
+            31.19,
+            223.49,
+            564.1,
+            251.01
+          ],
+          "text": "Follow Up Instruction: Schedule follow-up appointment in 3 months for HbA1c and CMP monitoring. Return sooner if any new\nsymptoms arise or existing symptoms worsen.",
+          "char_count": 164
+        },
+        {
+          "bbox": [
+            31.19,
+            280.95,
+            122.86,
+            296.18
+          ],
+          "text": "Past Hospital Visits",
+          "char_count": 20
+        },
+        {
+          "bbox": [
+            31.19,
+            321.38,
+            175.68,
+            335.23
+          ],
+          "text": "Date\nReason",
+          "char_count": 11
+        },
+        {
+          "bbox": [
+            31.19,
+            349.64,
+            255.11,
+            362.98
+          ],
+          "text": "02/08/2024\nRoutine Diabetes Check-up",
+          "char_count": 36
+        },
+        {
+          "bbox": [
+            31.19,
+            377.98,
+            285.1,
+            391.32
+          ],
+          "text": "15/05/2024\nPeripheral Neuropathy Assessment",
+          "char_count": 43
+        },
+        {
+          "bbox": [
+            31.19,
+            406.33,
+            203.2,
+            419.67
+          ],
+          "text": "22/02/2024\nFlu Symptoms",
+          "char_count": 23
+        },
+        {
+          "bbox": [
+            31.19,
+            434.67,
+            236.23,
+            448.01
+          ],
+          "text": "10/11/2023\nAnnual Physical Exam",
+          "char_count": 31
+        },
+        {
+          "bbox": [
+            31.19,
+            463.02,
+            185.95,
+            476.36
+          ],
+          "text": "05/08/2023\nEye Exam",
+          "char_count": 19
+        },
+        {
+          "bbox": [
+            31.19,
+            491.37,
+            225.12,
+            504.71
+          ],
+          "text": "12/05/2023\nDiabetic Foot Exam",
+          "char_count": 29
+        },
+        {
+          "bbox": [
+            31.19,
+            521.9,
+            129.87,
+            537.13
+          ],
+          "text": "Current Medications",
+          "char_count": 19
+        },
+        {
+          "bbox": [
+            31.19,
+            562.32,
+            360.2,
+            576.17
+          ],
+          "text": "Medication Summary\nDosage\nFrequency",
+          "char_count": 35
+        },
+        {
+          "bbox": [
+            31.19,
+            590.58,
+            362.14,
+            603.92
+          ],
+          "text": "Metformin\n500mg\nTwice daily",
+          "char_count": 27
+        },
+        {
+          "bbox": [
+            31.19,
+            618.93,
+            384.64,
+            632.27
+          ],
+          "text": "Gabapentin\n300mg\nThree times daily",
+          "char_count": 34
+        },
+        {
+          "bbox": [
+            31.19,
+            647.27,
+            358.25,
+            660.61
+          ],
+          "text": "Atorvastatin\n20mg\nOnce daily",
+          "char_count": 28
+        },
+        {
+          "bbox": [
+            31.19,
+            675.62,
+            358.25,
+            688.96
+          ],
+          "text": "Lisinopril\n10mg\nOnce daily",
+          "char_count": 26
+        },
+        {
+          "bbox": [
+            31.19,
+            703.97,
+            358.25,
+            717.31
+          ],
+          "text": "Vitamin B12\n1000mcg\nOnce daily",
+          "char_count": 30
+        },
+        {
+          "bbox": [
+            31.19,
+            732.31,
+            358.25,
+            745.65
+          ],
+          "text": "Aspirin\n81mg\nOnce daily",
+          "char_count": 23
+        },
+        {
+          "bbox": [
+            31.19,
+            762.84,
+            96.27,
+            778.07
+          ],
+          "text": "Medical Tests",
+          "char_count": 13
+        },
+        {
+          "bbox": [
+            138.21,
+            791.84,
+            457.07,
+            805.18
+          ],
+          "text": "Sierra  Valley Medical Institute INC          (402) 738-5912                22/04/2025",
+          "char_count": 86
+        }
+      ],
+      "block_count": 25,
+      "char_count": 1568
+    },
+    {
+      "page": 3,
+      "blocks": [
+        {
+          "bbox": [
+            93.54,
+            6.47,
+            144.67,
+            62.76
+          ],
+          "text": "Healthcare\nRecovery\nTrauma\nCenter",
+          "char_count": 33
+        },
+        {
+          "bbox": [
+            413.86,
+            6.64,
+            557.17,
+            34.16
+          ],
+          "text": "Kimberly Lawrence     24/05/1977\nSierra Valley Medical Institute INC",
+          "char_count": 68
+        },
+        {
+          "bbox": [
+            31.19,
+            88.94,
+            349.66,
+            102.79
+          ],
+          "text": "Medication Test\nStatus\nOn/Last",
+          "char_count": 30
+        },
+        {
+          "bbox": [
+            31.19,
+            117.19,
+            360.21,
+            130.53
+          ],
+          "text": "HbA1c\nDone\n08/11/2024",
+          "char_count": 21
+        },
+        {
+          "bbox": [
+            31.19,
+            145.54,
+            360.21,
+            158.88
+          ],
+          "text": "Lipid Panel\nDone\n08/11/2024",
+          "char_count": 27
+        },
+        {
+          "bbox": [
+            31.19,
+            173.89,
+            360.21,
+            187.23
+          ],
+          "text": "Comprehensive Metabolic Panel\nDone\n08/11/2024",
+          "char_count": 45
+        },
+        {
+          "bbox": [
+            31.19,
+            202.23,
+            360.21,
+            215.57
+          ],
+          "text": "Urinalysis\nDone\n08/11/2024",
+          "char_count": 26
+        },
+        {
+          "bbox": [
+            31.19,
+            230.58,
+            360.21,
+            243.92
+          ],
+          "text": "ECG\nDone\n08/11/2024",
+          "char_count": 19
+        },
+        {
+          "bbox": [
+            31.19,
+            258.93,
+            360.21,
+            272.27
+          ],
+          "text": "Microalbumin\nPending\n15/11/2024",
+          "char_count": 31
+        },
+        {
+          "bbox": [
+            138.21,
+            791.84,
+            457.07,
+            805.18
+          ],
+          "text": "Sierra  Valley Medical Institute INC          (402) 738-5912                22/04/2025",
+          "char_count": 86
+        }
+      ],
+      "block_count": 10,
+      "char_count": 386
+    }
+  ]
+}

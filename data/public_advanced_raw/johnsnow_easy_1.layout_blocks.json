@@ -1,0 +1,667 @@
+{
+  "tool": "pymupdf_layout_blocks",
+  "source_pdf": "johnsnow_easy_1.pdf",
+  "pages": [
+    {
+      "page": 1,
+      "blocks": [
+        {
+          "bbox": [
+            93.54,
+            6.47,
+            144.67,
+            62.76
+          ],
+          "text": "Healthcare\nRecovery\nTrauma\nCenter",
+          "char_count": 33
+        },
+        {
+          "bbox": [
+            413.86,
+            6.64,
+            557.17,
+            34.16
+          ],
+          "text": "Elizabeth Williams     07/06/1949\nSierra Valley Medical Institute INC",
+          "char_count": 69
+        },
+        {
+          "bbox": [
+            31.19,
+            85.36,
+            113.99,
+            100.59
+          ],
+          "text": "Patient Summary",
+          "char_count": 15
+        },
+        {
+          "bbox": [
+            31.19,
+            108.69,
+            564.1,
+            122.03
+          ],
+          "text": "Elizabeth Williams, born on 07/06/1949 and aged 56, is a female patient with a history of Type 2 Diabetes Mellitus. Her medical",
+          "char_count": 127
+        },
+        {
+          "bbox": [
+            31.19,
+            125.7,
+            564.11,
+            139.04
+          ],
+          "text": "journey includes management of peripheral neuropathy associated with her diabetes. Current health status involves ongoing",
+          "char_count": 121
+        },
+        {
+          "bbox": [
+            31.19,
+            142.71,
+            263.39,
+            156.05
+          ],
+          "text": "monitoring of blood glucose levels and pain management.",
+          "char_count": 55
+        },
+        {
+          "bbox": [
+            31.19,
+            176.07,
+            135.37,
+            191.3
+          ],
+          "text": "Patient Demographics",
+          "char_count": 20
+        },
+        {
+          "bbox": [
+            31.19,
+            197.98,
+            98.12,
+            225.5
+          ],
+          "text": "Name: Elizabeth\nWilliams",
+          "char_count": 24
+        },
+        {
+          "bbox": [
+            31.19,
+            232.0,
+            103.14,
+            245.34
+          ],
+          "text": "DOB: 07/06/1949",
+          "char_count": 15
+        },
+        {
+          "bbox": [
+            31.19,
+            251.84,
+            63.13,
+            265.18
+          ],
+          "text": "Age: 56",
+          "char_count": 7
+        },
+        {
+          "bbox": [
+            31.19,
+            271.68,
+            80.91,
+            285.02
+          ],
+          "text": "Sex: Female",
+          "char_count": 11
+        },
+        {
+          "bbox": [
+            31.19,
+            291.53,
+            106.47,
+            304.87
+          ],
+          "text": "SSN: 497-78-2934",
+          "char_count": 16
+        },
+        {
+          "bbox": [
+            31.19,
+            311.37,
+            96.75,
+            338.88
+          ],
+          "text": "Hospital ID:\nHOSP17622343",
+          "char_count": 25
+        },
+        {
+          "bbox": [
+            31.19,
+            368.83,
+            107.87,
+            384.06
+          ],
+          "text": "Patient Lifestyle",
+          "char_count": 17
+        },
+        {
+          "bbox": [
+            31.19,
+            390.74,
+            128.98,
+            404.08
+          ],
+          "text": "Smoking Status: Former",
+          "char_count": 22
+        },
+        {
+          "bbox": [
+            31.19,
+            410.58,
+            151.75,
+            423.92
+          ],
+          "text": "Alcohol Consumption: Rarely",
+          "char_count": 27
+        },
+        {
+          "bbox": [
+            31.19,
+            430.42,
+            167.81,
+            443.76
+          ],
+          "text": "Diet Preference: Diabetic-friendly",
+          "char_count": 34
+        },
+        {
+          "bbox": [
+            31.19,
+            450.27,
+            118.96,
+            463.61
+          ],
+          "text": "Exercise Habits: Mild",
+          "char_count": 21
+        },
+        {
+          "bbox": [
+            31.19,
+            493.55,
+            95.04,
+            508.78
+          ],
+          "text": "Patient Vitals",
+          "char_count": 14
+        },
+        {
+          "bbox": [
+            31.19,
+            515.46,
+            89.51,
+            528.8
+          ],
+          "text": "Heart Rate: 78",
+          "char_count": 14
+        },
+        {
+          "bbox": [
+            31.19,
+            535.3,
+            113.96,
+            548.64
+          ],
+          "text": "Respiratory Rate: 16",
+          "char_count": 20
+        },
+        {
+          "bbox": [
+            31.19,
+            555.15,
+            137.01,
+            568.49
+          ],
+          "text": "Temperature Celsius: 36.8",
+          "char_count": 25
+        },
+        {
+          "bbox": [
+            31.19,
+            574.99,
+            154.23,
+            588.33
+          ],
+          "text": "Oxygen Saturation Percent: 97",
+          "char_count": 29
+        },
+        {
+          "bbox": [
+            31.19,
+            594.83,
+            155.36,
+            608.17
+          ],
+          "text": "Blood Pressure: 130/85 mmHg",
+          "char_count": 27
+        },
+        {
+          "bbox": [
+            31.19,
+            614.67,
+            141.73,
+            628.01
+          ],
+          "text": "Recorded Date: 15/11/2024",
+          "char_count": 25
+        },
+        {
+          "bbox": [
+            31.19,
+            657.96,
+            123.76,
+            673.19
+          ],
+          "text": "Doctor Information",
+          "char_count": 18
+        },
+        {
+          "bbox": [
+            31.19,
+            679.87,
+            90.62,
+            721.56
+          ],
+          "text": "Doctor Name:\nSamantha\nWatson",
+          "char_count": 28
+        },
+        {
+          "bbox": [
+            31.19,
+            728.06,
+            155.34,
+            741.4
+          ],
+          "text": "Doctor Unique ID: DR37377A",
+          "char_count": 26
+        },
+        {
+          "bbox": [
+            138.21,
+            791.84,
+            457.07,
+            805.18
+          ],
+          "text": "Sierra  Valley Medical Institute INC          (402) 738-5912                22/04/2025",
+          "char_count": 86
+        }
+      ],
+      "block_count": 29,
+      "char_count": 971
+    },
+    {
+      "page": 2,
+      "blocks": [
+        {
+          "bbox": [
+            93.54,
+            6.47,
+            144.67,
+            62.76
+          ],
+          "text": "Healthcare\nRecovery\nTrauma\nCenter",
+          "char_count": 33
+        },
+        {
+          "bbox": [
+            413.86,
+            6.64,
+            557.17,
+            34.16
+          ],
+          "text": "Elizabeth Williams     07/06/1949\nSierra Valley Medical Institute INC",
+          "char_count": 69
+        },
+        {
+          "bbox": [
+            31.19,
+            85.36,
+            92.58,
+            100.59
+          ],
+          "text": "Doctor Notes",
+          "char_count": 12
+        },
+        {
+          "bbox": [
+            31.19,
+            107.27,
+            564.11,
+            134.79
+          ],
+          "text": "Subjective Observations: Patient reports continued pain in lower extremities, particularly at night. Reports good adherence to\nmedication regimen and diet.  Patient reports occasionally feeling dizzy.",
+          "char_count": 200
+        },
+        {
+          "bbox": [
+            31.19,
+            141.29,
+            564.11,
+            168.8
+          ],
+          "text": "Assesment: Patient remains stable with Type 2 Diabetes Mellitus and peripheral neuropathy. Glucose control is within target range,\nbut neuropathy symptoms persist.  Dizziness could be related to medication or blood pressure; further investigation warranted.",
+          "char_count": 257
+        },
+        {
+          "bbox": [
+            31.19,
+            175.3,
+            564.09,
+            202.82
+          ],
+          "text": "Recommendations: Continue current medication regimen. Monitor blood glucose levels regularly. Start taking blood pressure at\nhome. Consider referral to physical therapy for neuropathy. Rule out medication-related dizziness.",
+          "char_count": 223
+        },
+        {
+          "bbox": [
+            31.19,
+            209.32,
+            564.1,
+            236.83
+          ],
+          "text": "Follow Up Instruction: Follow-up appointment in 3 months. Schedule ECG and peripheral nerve conduction study. Contact clinic if\ndizziness worsens or new symptoms develop.",
+          "char_count": 170
+        },
+        {
+          "bbox": [
+            31.19,
+            266.78,
+            122.86,
+            282.01
+          ],
+          "text": "Past Hospital Visits",
+          "char_count": 20
+        },
+        {
+          "bbox": [
+            31.19,
+            307.21,
+            175.68,
+            321.06
+          ],
+          "text": "Date\nReason",
+          "char_count": 11
+        },
+        {
+          "bbox": [
+            31.19,
+            335.46,
+            234.0,
+            348.8
+          ],
+          "text": "03/03/2024\nAnnual physical exam",
+          "char_count": 31
+        },
+        {
+          "bbox": [
+            31.19,
+            363.81,
+            289.27,
+            377.15
+          ],
+          "text": "15/05/2024\nFollow-up for diabetes management",
+          "char_count": 44
+        },
+        {
+          "bbox": [
+            31.19,
+            392.16,
+            258.44,
+            405.5
+          ],
+          "text": "22/07/2024\nNeuropathy pain assessment",
+          "char_count": 37
+        },
+        {
+          "bbox": [
+            31.19,
+            420.5,
+            221.22,
+            433.84
+          ],
+          "text": "10/08/2024\nDiabetic foot exam",
+          "char_count": 29
+        },
+        {
+          "bbox": [
+            31.19,
+            448.85,
+            230.93,
+            462.19
+          ],
+          "text": "05/10/2024\nInfluenza vaccination",
+          "char_count": 32
+        },
+        {
+          "bbox": [
+            31.19,
+            477.19,
+            234.0,
+            490.53
+          ],
+          "text": "28/10/2024\nGlucose levels control",
+          "char_count": 33
+        },
+        {
+          "bbox": [
+            31.19,
+            507.73,
+            129.87,
+            522.96
+          ],
+          "text": "Current Medications",
+          "char_count": 19
+        },
+        {
+          "bbox": [
+            31.19,
+            548.15,
+            360.2,
+            562.0
+          ],
+          "text": "Medication Summary\nDosage\nFrequency",
+          "char_count": 35
+        },
+        {
+          "bbox": [
+            31.19,
+            576.41,
+            362.14,
+            589.75
+          ],
+          "text": "Metformin\n500mg\nTwice daily",
+          "char_count": 27
+        },
+        {
+          "bbox": [
+            31.19,
+            604.75,
+            384.64,
+            618.09
+          ],
+          "text": "Gabapentin\n300mg\nThree times daily",
+          "char_count": 34
+        },
+        {
+          "bbox": [
+            31.19,
+            633.1,
+            358.25,
+            646.44
+          ],
+          "text": "Lisinopril\n10mg\nOnce daily",
+          "char_count": 26
+        },
+        {
+          "bbox": [
+            31.19,
+            661.45,
+            358.25,
+            674.79
+          ],
+          "text": "Atorvastatin\n20mg\nOnce daily",
+          "char_count": 28
+        },
+        {
+          "bbox": [
+            31.19,
+            689.79,
+            358.25,
+            703.13
+          ],
+          "text": "Multivitamin\n1 tablet\nOnce daily",
+          "char_count": 32
+        },
+        {
+          "bbox": [
+            31.19,
+            718.14,
+            358.25,
+            731.48
+          ],
+          "text": "Vitamin D\n2000 IU\nOnce daily",
+          "char_count": 28
+        },
+        {
+          "bbox": [
+            31.19,
+            748.67,
+            96.27,
+            763.9
+          ],
+          "text": "Medical Tests",
+          "char_count": 13
+        },
+        {
+          "bbox": [
+            138.21,
+            791.84,
+            457.07,
+            805.18
+          ],
+          "text": "Sierra  Valley Medical Institute INC          (402) 738-5912                22/04/2025",
+          "char_count": 86
+        }
+      ],
+      "block_count": 25,
+      "char_count": 1529
+    },
+    {
+      "page": 3,
+      "blocks": [
+        {
+          "bbox": [
+            93.54,
+            6.47,
+            144.67,
+            62.76
+          ],
+          "text": "Healthcare\nRecovery\nTrauma\nCenter",
+          "char_count": 33
+        },
+        {
+          "bbox": [
+            413.86,
+            6.64,
+            557.17,
+            34.16
+          ],
+          "text": "Elizabeth Williams     07/06/1949\nSierra Valley Medical Institute INC",
+          "char_count": 69
+        },
+        {
+          "bbox": [
+            31.19,
+            88.94,
+            349.66,
+            102.79
+          ],
+          "text": "Medication Test\nStatus\nOn/Last",
+          "char_count": 30
+        },
+        {
+          "bbox": [
+            31.19,
+            117.19,
+            360.21,
+            130.53
+          ],
+          "text": "HbA1c\nDone\n08/11/2024",
+          "char_count": 21
+        },
+        {
+          "bbox": [
+            31.19,
+            145.54,
+            360.21,
+            158.88
+          ],
+          "text": "Lipid Panel\nDone\n08/11/2024",
+          "char_count": 27
+        },
+        {
+          "bbox": [
+            31.19,
+            173.89,
+            360.21,
+            187.23
+          ],
+          "text": "Comprehensive Metabolic Panel (CMP)\nDone\n08/11/2024",
+          "char_count": 51
+        },
+        {
+          "bbox": [
+            31.19,
+            202.23,
+            360.21,
+            215.57
+          ],
+          "text": "Urinalysis\nDone\n08/11/2024",
+          "char_count": 26
+        },
+        {
+          "bbox": [
+            31.19,
+            230.58,
+            360.21,
+            243.92
+          ],
+          "text": "ECG\nPending\n18/11/2024",
+          "char_count": 22
+        },
+        {
+          "bbox": [
+            31.19,
+            258.93,
+            360.21,
+            272.27
+          ],
+          "text": "Peripheral Nerve Conduction Study\nPending\n22/11/2024",
+          "char_count": 52
+        },
+        {
+          "bbox": [
+            138.21,
+            791.84,
+            457.07,
+            805.18
+          ],
+          "text": "Sierra  Valley Medical Institute INC          (402) 738-5912                22/04/2025",
+          "char_count": 86
+        }
+      ],
+      "block_count": 10,
+      "char_count": 417
+    }
+  ]
+}

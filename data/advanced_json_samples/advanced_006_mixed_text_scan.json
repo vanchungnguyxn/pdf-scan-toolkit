@@ -1,0 +1,151 @@
+{
+  "patient": {
+    "patient_id": "ADV-006",
+    "name": "Dang Thi Mixed",
+    "dob": "1988-09-09",
+    "gender": "female"
+  },
+  "documents": [
+    {
+      "document_id": "DOC-001",
+      "doc_type": "emr_pdf_page",
+      "created_at": null,
+      "source_pdf": "advanced_006_mixed_text_scan.pdf",
+      "page": 1,
+      "raw_text": "ADVANCED MIXED PDF - PAGE 1 TEXT\nPatient ID: ADV-006\n\nName: Dang Thi Mixed\n\nDOB: 1988-09-09\n\nGender: Female\n\nClinical history: Diabetes type 2; Hypertension.\nAllergy: Sulfa drug - rash.\n\nCurrent medication: Metformin 500mg twice daily."
+    },
+    {
+      "document_id": "DOC-002",
+      "doc_type": "emr_pdf_page",
+      "created_at": null,
+      "source_pdf": "advanced_006_mixed_text_scan.pdf",
+      "page": 2,
+      "raw_text": ""
+    }
+  ],
+  "clinical_summary": {
+    "allergies": [
+      {
+        "name": "Allergy",
+        "value": "Sulfa drug - rash.",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Allergy: Sulfa drug - rash.",
+          "char_start": 158,
+          "char_end": 185,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      }
+    ],
+    "chronic_diseases": [
+      {
+        "name": "Chronic disease",
+        "value": "hypertension",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Clinical history: Diabetes type 2; Hypertension.",
+          "char_start": 109,
+          "char_end": 157,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      },
+      {
+        "name": "Chronic disease",
+        "value": "diabetes",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Clinical history: Diabetes type 2; Hypertension.",
+          "char_start": 109,
+          "char_end": 157,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      }
+    ],
+    "active_medications": [
+      {
+        "name": "Active medication",
+        "value": "Metformin 500mg twice daily.",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Current medication: Metformin 500mg twice daily.",
+          "char_start": 187,
+          "char_end": 235,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      }
+    ],
+    "abnormal_labs": []
+  },
+  "metadata": {
+    "source_pdf": "advanced_006_mixed_text_scan.pdf",
+    "parser": "rule_regex_v1",
+    "patient_normalization": {
+      "patient_id": "ADV-006",
+      "name": "Dang Thi Mixed",
+      "dob": "1988-09-09",
+      "gender": "female",
+      "age": null,
+      "normalization_confidence": 1.0,
+      "source_spans": {
+        "patient_id": {
+          "page": 1,
+          "text": "Patient ID: ADV-006",
+          "start": 45,
+          "end": 52
+        },
+        "name": {
+          "page": 1,
+          "text": "Name: Dang Thi Mixed",
+          "start": 60,
+          "end": 74
+        },
+        "dob": {
+          "page": 1,
+          "text": "DOB: 1988-09-09",
+          "start": 81,
+          "end": 91
+        },
+        "gender": {
+          "page": 1,
+          "text": "Gender: Female",
+          "start": 101,
+          "end": 107
+        }
+      }
+    },
+    "extraction_mode": "rule_based",
+    "extraction_reason": "LLM disabled",
+    "tools": [
+      "PyMuPDF",
+      "pdfplumber",
+      "Camelot",
+      "Tesseract OCR enhanced",
+      "PyMuPDF layout blocks"
+    ],
+    "selected_pages": [
+      {
+        "page": 1,
+        "source_tool": "tesseract_basic",
+        "char_count": 235
+      },
+      {
+        "page": 2,
+        "source_tool": "pymupdf",
+        "char_count": 0
+      }
+    ],
+    "tables_merged": 0
+  }
+}

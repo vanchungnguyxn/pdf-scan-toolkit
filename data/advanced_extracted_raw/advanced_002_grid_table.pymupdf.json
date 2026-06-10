@@ -1,0 +1,11 @@
+{
+  "tool": "pymupdf",
+  "source_pdf": "advanced_002_grid_table.pdf",
+  "pages": [
+    {
+      "page": 1,
+      "text": "ADVANCED TABLE PDF - GRID LAB +\nMEDICATION\nPatient ID: ADV-002\nName: Tran Thi Table\nDOB: 1970-01-09\nGender: Female\nClinical history: Chronic kidney disease CKD stage 3; Hypertension.\nAllergy: No known drug allergy recorded.\nCurrent Medications\nMedication\nDose\nFrequency\nStatus\nLosartan\n50mg\nonce daily\nactive\nAtorvastatin\n20mg\nnight\nactive\nLaboratory Results\nTest\nValue\nUnit\nReference Range\nFlag\nGlucose\n5.3\nmmol/L\n3.9-5.6\nNormal\nCreatinine\n190\numol/L\n60-110\nHigh\neGFR\n38\nmL/min\n90-120\nLow\nHbA1c\n8.5\n%\n4.0-5.6\nHigh",
+      "char_count": 514
+    }
+  ]
+}

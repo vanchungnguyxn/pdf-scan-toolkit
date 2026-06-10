@@ -1,0 +1,201 @@
+{
+  "patient": {
+    "patient_id": "UNKNOWN",
+    "name": "Susan Frances Martin",
+    "dob": "09/03/1951",
+    "gender": "Female"
+  },
+  "documents": [
+    {
+      "document_id": "DOC-001",
+      "doc_type": "emr_pdf_page",
+      "created_at": null,
+      "source_pdf": "johnsnow_medium_0.pdf",
+      "page": 1,
+      "raw_text": "Patient Name : Susan Frances Martin Date Of Birth : 09/03/1951\n\nCoordinator For Healthplans - Encounter Summary for Susan\n\nFrances Martin, Electronically signed by Dr. Brittany Gallagher,\nFNP-C\n\nSocial Security Number\n103-15-0825\n\nEncounter\n\nDate of Start Service\n07/04/1952\n\nEncounter Participant\nDr. Brittany Gallagher\nContact\n\n5891 Kenneth Ports, New Amandafort, Wyoming United States - 97375 Tel: (253)\n095-5181\n\nAppointment Confirmation\nProvider: Dr. Brittany Gallagher, MD.\nConfirmed On: 30/10/1952 09:58 PM\nLocation:\n\n577 Norman Villages, North Bradleytown, Oklahoma United States - 55962\nPh. tel: (297) 476-3913\n\nTable Of Contents:\nPaitnet Summary\nPatient Demographics\nPatient Lifestyle\nPatient Vitals\n\nDoctor Information\nDoctor Notes\n\nPast Hospital Visit\nCurrent Medications\nMedical Tests\n\nPatient Summary\n\nSusan Frances Martin, born on 09/03/1951, is a 74-year-old female patient. Her medical\njourney includes management of Osteoarthritis. She has a history of regular hospital visits\nfor check-ups and treatments related to her condition. Her current health status is stable\nwith ongoing management and monitoring of her symptoms."
+    },
+    {
+      "document_id": "DOC-002",
+      "doc_type": "emr_pdf_page",
+      "created_at": null,
+      "source_pdf": "johnsnow_medium_0.pdf",
+      "page": 2,
+      "raw_text": "Patient Name : Susan Frances Martin Date Of Birth : 09/03/1951\n\nPatient Demographics\n\nName: Susan\nFrances\nMartin\n\nDOB:\n09/03/1951\n\nAge: 74\nSex: Female\n\nSSN: 103-15-0825\n\nHospital ID: HOSP20831933\n\nPatient Lifestyle\n\n‘Smoking Status: Never\n\nAlcohol Consumption: Rarely\nDiet Preference: Diabetic-friendly\nExercise Habits: Mild\n\nPatient Vitals\n\nHeart Rate: 72\n\nRespiratory Rate: 16\nTemperature Celsius: 36.8\nOxygen Saturation Percent: 98\nBlood Pressure: 130/85 mmHg\nRecorded Date: 26/10/2023\n\nDoctor Information\nDoctor Name: Brittany Gallagher\nDoctor Unique ID: DR94303A\n\nDoctor Notes\n\nSubjective Observations: Patient reports manageable pain levels with current medication\nregimen. Reports improved mobility with physical therapy sessions.\n\nAssesment: Osteoarthritis is stable. Patient adhering to treatment plan. No new concerns"
+    },
+    {
+      "document_id": "DOC-003",
+      "doc_type": "emr_pdf_page",
+      "created_at": null,
+      "source_pdf": "johnsnow_medium_0.pdf",
+      "page": 3,
+      "raw_text": "Patient Name : Susan Frances Martin Date Of Birth : 09/03/1951\n\nreported.\n\nRecommendations: Continue current medication regimen and physical therapy. Monitor pain\nlevels and adjust medication as needed.\n\nFollow Up Instruction: Follow-up appointment scheduled in 3 months for routine check-up and\nmedication review.\n\nPast Hospital Visits\n\nDate Reason\n\n1510972023 Osteoarthritis follow-up\n‘01/08/2023 Physical therapy session\n1810772023 Pain management consultation\n03/07/2023 Routine check-up\n\n20106/2023 Medication review\n‘05/06/2023 X-ray of knee joint\n\nCurrent Medications\n\nMedication Summary Dosage Frequency\nAcetaminophen 00mg Twice daily\nIbuprofen 200mg As needed for pain\nVitamin D. 200010 Daily\n\nCalcium Carbonate 500mg Daily\nGlucosamine 1500mg Daily\n‘Chondroitin 1200mg. Daily\nMedical Tests\n\nMedication Test Status On/Last\n\n‘Complete Blood Count (CBC) Done 20/10/2023"
+    },
+    {
+      "document_id": "DOC-004",
+      "doc_type": "emr_pdf_page",
+      "created_at": null,
+      "source_pdf": "johnsnow_medium_0.pdf",
+      "page": 4,
+      "raw_text": "Patient Name : Susan Frances Martin Date Of Birth : 09/03/1951\n\n‘Comprehensive Metabolic Panel (CMP) Done 20/10/2023\nLipid Panel Done 20/10/2023\nUric Acid Test Done 20/10/2023\nInflammatory Markers (CRP, ESR) Pending 27/0/2023\n\nVitamin D Level Done 20/10/2023"
+    }
+  ],
+  "clinical_summary": {
+    "allergies": [],
+    "chronic_diseases": [
+      {
+        "name": "Osteoarthritis",
+        "value": "Osteoarthritis",
+        "status": "unknown",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Her medical journey includes management of Osteoarthritis.",
+          "char_start": 882,
+          "char_end": 951,
+          "match_type": "fuzzy",
+          "confidence": 0.98
+        }
+      }
+    ],
+    "active_medications": [
+      {
+        "name": "Acetaminophen",
+        "value": "00mg",
+        "status": "Twice daily",
+        "source": {
+          "document_id": "DOC-003",
+          "page": 3,
+          "evidence_text": "Acetaminophen 00mg Twice daily",
+          "char_start": 612,
+          "char_end": 642,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      },
+      {
+        "name": "Ibuprofen",
+        "value": "200mg",
+        "status": "As needed for pain",
+        "source": {
+          "document_id": "DOC-003",
+          "page": 3,
+          "evidence_text": "Ibuprofen 200mg As needed for pain",
+          "char_start": 643,
+          "char_end": 677,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      },
+      {
+        "name": "Vitamin D",
+        "value": "200010",
+        "status": "Daily",
+        "source": {
+          "document_id": "DOC-003",
+          "page": 3,
+          "evidence_text": "Vitamin D. 200010 Daily",
+          "char_start": 678,
+          "char_end": 701,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      },
+      {
+        "name": "Calcium Carbonate",
+        "value": "500mg",
+        "status": "Daily",
+        "source": {
+          "document_id": "DOC-003",
+          "page": 3,
+          "evidence_text": "Calcium Carbonate 500mg Daily",
+          "char_start": 703,
+          "char_end": 732,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      },
+      {
+        "name": "Glucosamine",
+        "value": "1500mg",
+        "status": "Daily",
+        "source": {
+          "document_id": "DOC-003",
+          "page": 3,
+          "evidence_text": "Glucosamine 1500mg Daily",
+          "char_start": 733,
+          "char_end": 757,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      },
+      {
+        "name": "Chondroitin",
+        "value": "1200mg",
+        "status": "Daily",
+        "source": {
+          "document_id": "DOC-003",
+          "page": 3,
+          "evidence_text": "‘Chondroitin 1200mg. Daily",
+          "char_start": 758,
+          "char_end": 784,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      }
+    ],
+    "abnormal_labs": [
+      {
+        "test_name": "Unknown",
+        "value": "Pending",
+        "unit": null,
+        "reference_range": null,
+        "interpretation": "unknown",
+        "source": {
+          "document_id": "DOC-004",
+          "page": 4,
+          "evidence_text": "Inflammatory Markers (CRP, ESR) Pending 27/0/2023",
+          "char_start": 176,
+          "char_end": 225,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source_pdf": "johnsnow_medium_0.pdf",
+    "parser": "llm_structured_v1",
+    "extraction_mode": "llm",
+    "extraction_reason": "LLM extraction succeeded",
+    "tools": [
+      "PyMuPDF",
+      "pdfplumber",
+      "Camelot",
+      "Tesseract OCR enhanced",
+      "PyMuPDF layout blocks"
+    ],
+    "selected_pages": [
+      {
+        "page": 1,
+        "source_tool": "tesseract_basic",
+        "char_count": 1141
+      },
+      {
+        "page": 2,
+        "source_tool": "tesseract_basic",
+        "char_count": 827
+      },
+      {
+        "page": 3,
+        "source_tool": "tesseract_basic",
+        "char_count": 875
+      },
+      {
+        "page": 4,
+        "source_tool": "tesseract_basic",
+        "char_count": 258
+      }
+    ],
+    "tables_merged": 0
+  }
+}

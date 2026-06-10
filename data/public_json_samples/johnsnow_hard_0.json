@@ -1,0 +1,73 @@
+{
+  "patient": {
+    "patient_id": "4829746",
+    "name": "Jonathan Miller",
+    "dob": "07/15/2005",
+    "gender": "Female"
+  },
+  "documents": [
+    {
+      "document_id": "DOC-001",
+      "doc_type": "emr_pdf_page",
+      "created_at": null,
+      "source_pdf": "johnsnow_hard_0.pdf",
+      "page": 1,
+      "raw_text": "Apolio, Diagnostic Form DF-196\n\nHealth System\nAPOLLO PATHOLOGY ASSOCIATES, INC\nCHRISTIAN CHURCH CITY HOSPITAL\nDEPARTMENT OF PATHOLOGY 742 Main Avenue\nAND ARTIFICIAL SCIENCE Toledo, OH 43615\n(419) 555-8923\nFINAL PATIENT SUMMARY REPORT\n\nPATIENT NAME: Jonathan Mi MRN: 4829746\nDOB: 07/15/2005 20 Female BILLING NO: 8646139\nLOCATION: Wisconsin PROCEDURE DATE: 04/24/2025\nIRGEON: Steven Walker RECEIVED DATE: 04/26/2025 I\n\nDOCTOR: Joseph Smith REPORT DATE: 04/28/2025\n\nDIAGNOSIS:\nType 2 Diabetes Mellitus\n\nDOCTOR NOTES:\n\nPatient reports feeling well-controlled. No significant complaints. Reports adherence to medication\nregimen.Patient with Type 2 Diabetes Mellitus, well-controlled on current medication regimen. Lipid panel\nand HbA\\c within target range. No new concerns reported.Continue current medication regimen. Encourage\nadherence to Diabetic-friendly diet and moderate exercise.\n\nPATIENT SUMMARY:\n\nnathan Miller, born on 15/07/2005, is a 20-year-old female patient. The patient has a history of Type 2\nDiabetes Mellitus and is currently undergoing management and monitoring. Regular blood glucose checks and\nlifestyle modifications are advised to maintain optimal health. The patients condition remains stable with\nongoing care.\n\nPATIENT LIFESTYLE AND VITALS:\nSmoking Status: Never\nAlcohol Consumption: Rarely\nDiet Preference: Diabetic-friendly\nExercise Habits: Mild\nHeart Rate: 72\nRespiratory Rate: 16\n@emperature Celsius: 36.8 |\nOxygen Saturation Percent: 98\nBlood Pressure: 128/78 mmHg\nRecorded Date: 03/11/2024\n\nDEPARTMENT OF PATHOLOGY AND ARTIFICIAL SCIENCE\nTOLEDO, OH (419) 555-8923\nDIAGNOSTIC FORM REPORT"
+    },
+    {
+      "document_id": "DOC-002",
+      "doc_type": "emr_pdf_page",
+      "created_at": null,
+      "source_pdf": "johnsnow_hard_0.pdf",
+      "page": 2,
+      "raw_text": "FINAL PATIENT SUMMARY REPORT\n\nPATIENT NAME: Jonathan Miller Diagnostic Form: DF-196\nMRN: 4829746\nPast Hospital Visits\nDate Reason\n15/10?2024 Routine check-up\nC Diabetes management review\n\n05/08/2024 Cold symptoms\n120672024 Annual physical exam\n20/04/2024 Follow-up appointment\n10/03/2024 Influenza vaccination\nMedical Tests\nMedication Test Status OniLast\n\nBrac Done ov11/2024\nLipid Panel Done ovii2024\n‘Complete Blood Count (CBC) Done ouni2024\nComprehensive Metabolic Panel (CMP) | Done 01/11/2024\nUrinalysis: Done 01/11/2024\nECG = 05/11/2024\n\nSEiscuoncaly Spee IanaTSE Ager\n9\n\nDEPARTMENT OF PATHOLOGY AND ARTIFICIAL SCIENCE\nTOLEDO, OH (419) 555-8923\nDIAGNOSTIC FORM REPORT"
+    }
+  ],
+  "clinical_summary": {
+    "allergies": [],
+    "chronic_diseases": [
+      {
+        "name": "Type 2 Diabetes Mellitus",
+        "value": "Type 2 Diabetes Mellitus",
+        "status": "unknown",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Patient with Type 2 Diabetes Mellitus, well-controlled on current medication regimen.",
+          "char_start": 624,
+          "char_end": 709,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      }
+    ],
+    "active_medications": [],
+    "abnormal_labs": []
+  },
+  "metadata": {
+    "source_pdf": "johnsnow_hard_0.pdf",
+    "parser": "llm_structured_v1",
+    "extraction_mode": "llm",
+    "extraction_reason": "LLM extraction succeeded",
+    "tools": [
+      "PyMuPDF",
+      "pdfplumber",
+      "Camelot",
+      "Tesseract OCR enhanced",
+      "PyMuPDF layout blocks"
+    ],
+    "selected_pages": [
+      {
+        "page": 1,
+        "source_tool": "tesseract_basic",
+        "char_count": 1616
+      },
+      {
+        "page": 2,
+        "source_tool": "tesseract_basic",
+        "char_count": 673
+      }
+    ],
+    "tables_merged": 0
+  }
+}

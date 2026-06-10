@@ -1,0 +1,16 @@
+{
+  "tool": "pdfplumber",
+  "source_pdf": "patient_004_mixed.pdf",
+  "pages": [
+    {
+      "page": 1,
+      "text": "MIXED PDF - PAGE 1 HAS TEXT LAYER\nMa benh nhan: PT-004\nHo ten: Pham Thi D\nNgay sinh: 1990-04-15\nGioi tinh: Nu\nTien su benh: Dai thao duong thai ky nam 2024.\nDi ung: Di ung hai san, noi me day.\nThuoc dang dung:\n- Metformin 500mg, uong 1 lan/ngay.",
+      "char_count": 245
+    },
+    {
+      "page": 2,
+      "text": "",
+      "char_count": 0
+    }
+  ]
+}

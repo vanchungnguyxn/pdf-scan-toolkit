@@ -1,0 +1,13 @@
+{
+  "tool": "pytesseract",
+  "source_pdf": "advanced_003_noisy_scan.pdf",
+  "status": "OCR_OK",
+  "reason": null,
+  "pages": [
+    {
+      "page": 1,
+      "text": "cathe Amma nit\n\nsey ner teen",
+      "char_count": 28
+    }
+  ]
+}

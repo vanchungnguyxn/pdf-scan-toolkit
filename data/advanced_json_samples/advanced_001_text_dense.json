@@ -1,0 +1,185 @@
+{
+  "patient": {
+    "patient_id": "ADV-001",
+    "name": "Nguyen Van Advanced",
+    "dob": "1962-06-22",
+    "gender": "male"
+  },
+  "documents": [
+    {
+      "document_id": "DOC-001",
+      "doc_type": "emr_pdf_page",
+      "created_at": null,
+      "source_pdf": "advanced_001_text_dense.pdf",
+      "page": 1,
+      "raw_text": "ADVANCED TEXT PDF - DENSE CLINICAL NOTE\nPatient ID: ADV-001\nName: Nguyen Van Advanced\nDOB: 1962-06-22\nGender: Male\nClinical history: Hypertension diagnosed in 2018; Diabetes type 2 since 2020.\nAllergy: Penicillin - rash and facial swelling.\nCurrent medication: Metformin 500mg twice daily.\nCurrent medication: Amlodipine 5mg once daily.\nLaboratory results: Glucose: 11.2 mmol/L, reference 3.9-5.6, high.\nLaboratory results: Creatinine: 145 umol/L, reference 60-110, high.\nDoctor note: Patient needs follow-up; this demo does not provide medical advice."
+    }
+  ],
+  "clinical_summary": {
+    "allergies": [
+      {
+        "name": "Allergy",
+        "value": "Penicillin - rash and facial swelling.",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Allergy: Penicillin - rash and facial swelling.",
+          "char_start": 193,
+          "char_end": 240,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      }
+    ],
+    "chronic_diseases": [
+      {
+        "name": "Chronic disease",
+        "value": "hypertension",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Clinical history: Hypertension diagnosed in 2018; Diabetes type 2 since 2020.",
+          "char_start": 115,
+          "char_end": 192,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      },
+      {
+        "name": "Chronic disease",
+        "value": "diabetes",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Clinical history: Hypertension diagnosed in 2018; Diabetes type 2 since 2020.",
+          "char_start": 115,
+          "char_end": 192,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      }
+    ],
+    "active_medications": [
+      {
+        "name": "Active medication",
+        "value": "Metformin 500mg twice daily.",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Current medication: Metformin 500mg twice daily.",
+          "char_start": 241,
+          "char_end": 289,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      },
+      {
+        "name": "Active medication",
+        "value": "Amlodipine 5mg once daily.",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Current medication: Amlodipine 5mg once daily.",
+          "char_start": 290,
+          "char_end": 336,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      }
+    ],
+    "abnormal_labs": [
+      {
+        "test_name": "Glucose",
+        "value": "11.2",
+        "unit": "mmol/L",
+        "reference_range": "3.9-5.6",
+        "interpretation": "high",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Laboratory results: Glucose: 11.2 mmol/L, reference 3.9-5.6, high.",
+          "char_start": 337,
+          "char_end": 403,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      },
+      {
+        "test_name": "Creatinine",
+        "value": "145",
+        "unit": "umol/L",
+        "reference_range": "60-110",
+        "interpretation": "high",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Laboratory results: Creatinine: 145 umol/L, reference 60-110, high.",
+          "char_start": 404,
+          "char_end": 471,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source_pdf": "advanced_001_text_dense.pdf",
+    "parser": "rule_regex_v1",
+    "patient_normalization": {
+      "patient_id": "ADV-001",
+      "name": "Nguyen Van Advanced",
+      "dob": "1962-06-22",
+      "gender": "male",
+      "age": null,
+      "normalization_confidence": 1.0,
+      "source_spans": {
+        "patient_id": {
+          "page": 1,
+          "text": "Patient ID: ADV-001",
+          "start": 52,
+          "end": 59
+        },
+        "name": {
+          "page": 1,
+          "text": "Name: Nguyen Van Advanced",
+          "start": 66,
+          "end": 85
+        },
+        "dob": {
+          "page": 1,
+          "text": "DOB: 1962-06-22",
+          "start": 91,
+          "end": 101
+        },
+        "gender": {
+          "page": 1,
+          "text": "Gender: Male",
+          "start": 110,
+          "end": 114
+        }
+      }
+    },
+    "extraction_mode": "rule_based",
+    "extraction_reason": "LLM disabled",
+    "tools": [
+      "PyMuPDF",
+      "pdfplumber",
+      "Camelot",
+      "Tesseract OCR enhanced",
+      "PyMuPDF layout blocks"
+    ],
+    "selected_pages": [
+      {
+        "page": 1,
+        "source_tool": "pymupdf",
+        "char_count": 552
+      }
+    ],
+    "tables_merged": 0
+  }
+}

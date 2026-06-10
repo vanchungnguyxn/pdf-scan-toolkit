@@ -1,0 +1,7 @@
+{
+  "tool": "camelot_lattice",
+  "source_pdf": "advanced_005_two_column.pdf",
+  "status": "CAMELOT_SKIPPED",
+  "reason": "camelot import failed: No module named 'camelot'",
+  "tables": []
+}

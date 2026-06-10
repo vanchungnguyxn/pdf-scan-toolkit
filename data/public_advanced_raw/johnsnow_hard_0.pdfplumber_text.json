@@ -1,0 +1,16 @@
+{
+  "tool": "pdfplumber",
+  "source_pdf": "johnsnow_hard_0.pdf",
+  "pages": [
+    {
+      "page": 1,
+      "text": "",
+      "char_count": 0
+    },
+    {
+      "page": 2,
+      "text": "",
+      "char_count": 0
+    }
+  ]
+}

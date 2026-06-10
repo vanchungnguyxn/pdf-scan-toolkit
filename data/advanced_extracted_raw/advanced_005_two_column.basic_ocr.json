@@ -1,0 +1,7 @@
+{
+  "tool": "pytesseract",
+  "source_pdf": "advanced_005_two_column.pdf",
+  "status": "OCR_SKIPPED",
+  "reason": "Selective skip: text layer is sufficient",
+  "pages": []
+}

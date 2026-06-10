@@ -1,0 +1,99 @@
+{
+  "tool": "pymupdf_layout_blocks",
+  "source_pdf": "advanced_006_mixed_text_scan.pdf",
+  "pages": [
+    {
+      "page": 1,
+      "blocks": [
+        {
+          "bbox": [
+            51.02,
+            36.36,
+            255.79,
+            51.48
+          ],
+          "text": "ADVANCED MIXED PDF - PAGE 1 TEXT",
+          "char_count": 32
+        },
+        {
+          "bbox": [
+            51.02,
+            59.04,
+            150.07,
+            74.16
+          ],
+          "text": "Patient ID: ADV-006",
+          "char_count": 19
+        },
+        {
+          "bbox": [
+            51.02,
+            81.72,
+            163.5,
+            96.83
+          ],
+          "text": "Name: Dang Thi Mixed",
+          "char_count": 20
+        },
+        {
+          "bbox": [
+            51.02,
+            104.4,
+            137.23,
+            119.51
+          ],
+          "text": "DOB: 1988-09-09",
+          "char_count": 15
+        },
+        {
+          "bbox": [
+            51.02,
+            127.07,
+            130.5,
+            142.19
+          ],
+          "text": "Gender: Female",
+          "char_count": 14
+        },
+        {
+          "bbox": [
+            51.02,
+            149.75,
+            278.44,
+            164.86
+          ],
+          "text": "Clinical history: Diabetes type 2; Hypertension.",
+          "char_count": 48
+        },
+        {
+          "bbox": [
+            51.02,
+            172.43,
+            175.13,
+            187.54
+          ],
+          "text": "Allergy: Sulfa drug - rash.",
+          "char_count": 27
+        },
+        {
+          "bbox": [
+            51.02,
+            195.1,
+            292.48,
+            210.22
+          ],
+          "text": "Current medication: Metformin 500mg twice daily.",
+          "char_count": 48
+        }
+      ],
+      "block_count": 8,
+      "char_count": 223
+    },
+    {
+      "page": 2,
+      "blocks": [],
+      "block_count": 0,
+      "char_count": 0
+    }
+  ]
+}

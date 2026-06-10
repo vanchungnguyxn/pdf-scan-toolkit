@@ -1,0 +1,23 @@
+[
+  {
+    "source": "JohnSnowLabs/pdf-deid-dataset",
+    "level": "easy",
+    "filename": "johnsnow_easy_0.pdf",
+    "url": "https://raw.githubusercontent.com/JohnSnowLabs/pdf-deid-dataset/main/PDF_Original/Easy/PDF_Deid_Deidentification_0.pdf",
+    "notes": "Synthetic medical-style PDF, clean layout."
+  },
+  {
+    "source": "JohnSnowLabs/pdf-deid-dataset",
+    "level": "medium",
+    "filename": "johnsnow_medium_0.pdf",
+    "url": "https://raw.githubusercontent.com/JohnSnowLabs/pdf-deid-dataset/main/PDF_Original/Medium/PDF_Deid_Deidentification_Medium_0.pdf",
+    "notes": "Synthetic medical-style PDF with varied formatting/noise."
+  },
+  {
+    "source": "JohnSnowLabs/pdf-deid-dataset",
+    "level": "hard",
+    "filename": "johnsnow_hard_0.pdf",
+    "url": "https://raw.githubusercontent.com/JohnSnowLabs/pdf-deid-dataset/main/PDF_Original/Hard/PDF_Deid_Deidentification_Hard_0.pdf",
+    "notes": "Synthetic medical-style PDF with dense layout/noise; OCR/layout stress test."
+  }
+]

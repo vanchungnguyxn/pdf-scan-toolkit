@@ -1,0 +1,126 @@
+{
+  "patient": {
+    "patient_id": "PT-002",
+    "name": "Tran Thi B",
+    "dob": "1975-07-20",
+    "gender": "Nu"
+  },
+  "documents": [
+    {
+      "document_id": "DOC-001",
+      "doc_type": "emr_pdf_page",
+      "created_at": null,
+      "source_pdf": "patient_002_table.pdf",
+      "page": 1,
+      "raw_text": "LAB AND MEDICATION PDF - TABLE LAYOUT\nMa benh nhan: PT-002\nHo ten: Tran Thi B\nNgay sinh: 1975-07-20\nGioi tinh: Nu\nTien su benh: Tang huyet ap; Suy than man tinh CKD stage 3.\nDi ung: Khong ghi nhan di ung thuoc trong ho so nay.\nThuoc dang dung\nMedication\nDose\nFrequency\nStatus\nLosartan\n50mg\n1 lan/ngay\nactive\nAtorvastatin\n20mg\n1 lan toi\nactive\nKet qua xet nghiem\nTest\nValue\nUnit\nReference Range\nFlag\nGlucose\n5.2\nmmol/L\n3.9-5.6\nNormal\nCreatinine\n180\numol/L\n60-110\nHigh\neGFR\n42\nmL/min\n90-120\nLow"
+    }
+  ],
+  "clinical_summary": {
+    "allergies": [
+      {
+        "name": "Allergy",
+        "value": "Khong ghi nhan di ung thuoc trong ho so nay.",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Di ung: Khong ghi nhan di ung thuoc trong ho so nay."
+        }
+      }
+    ],
+    "chronic_diseases": [
+      {
+        "name": "Chronic disease",
+        "value": "tang huyet ap",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Tien su benh: Tang huyet ap; Suy than man tinh CKD stage 3."
+        }
+      },
+      {
+        "name": "Chronic disease",
+        "value": "suy than",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Tien su benh: Tang huyet ap; Suy than man tinh CKD stage 3."
+        }
+      },
+      {
+        "name": "Chronic disease",
+        "value": "ckd",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Tien su benh: Tang huyet ap; Suy than man tinh CKD stage 3."
+        }
+      }
+    ],
+    "active_medications": [
+      {
+        "name": "Active medication",
+        "value": "LAB AND MEDICATION PDF - TABLE LAYOUT",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "LAB AND MEDICATION PDF - TABLE LAYOUT"
+        }
+      },
+      {
+        "name": "Active medication",
+        "value": "Losartan",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Losartan"
+        }
+      },
+      {
+        "name": "Active medication",
+        "value": "Atorvastatin",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Atorvastatin"
+        }
+      }
+    ],
+    "abnormal_labs": [
+      {
+        "test_name": "Creatinine",
+        "value": "180",
+        "unit": "umol/L",
+        "reference_range": "60-110",
+        "interpretation": "high",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Creatinine | 180 | umol/L | 60-110 | High"
+        }
+      },
+      {
+        "test_name": "eGFR",
+        "value": "42",
+        "unit": "mL/min",
+        "reference_range": "90-120",
+        "interpretation": "low",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "eGFR | 42 | mL/min | 90-120 | Low"
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source_pdf": "patient_002_table.pdf",
+    "parser": "rule_regex_v0"
+  }
+}

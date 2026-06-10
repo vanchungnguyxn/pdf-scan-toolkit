@@ -1,0 +1,11 @@
+{
+  "file_path": "data\\public_pdf_samples\\johnsnow_easy_0.pdf",
+  "pdf_type": "text_pdf",
+  "total_pages": 3,
+  "has_text_layer": true,
+  "page_char_counts": [
+    1103,
+    1592,
+    395
+  ]
+}

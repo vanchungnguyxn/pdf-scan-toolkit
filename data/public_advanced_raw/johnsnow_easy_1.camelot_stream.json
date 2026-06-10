@@ -1,0 +1,7 @@
+{
+  "tool": "camelot_stream",
+  "source_pdf": "johnsnow_easy_1.pdf",
+  "status": "CAMELOT_SKIPPED",
+  "reason": "camelot import failed: No module named 'camelot'",
+  "tables": []
+}

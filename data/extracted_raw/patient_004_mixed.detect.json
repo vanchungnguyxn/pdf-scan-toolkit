@@ -1,0 +1,10 @@
+{
+  "file_path": "data/pdf_samples/patient_004_mixed.pdf",
+  "pdf_type": "mixed_pdf",
+  "total_pages": 2,
+  "has_text_layer": true,
+  "page_char_counts": [
+    245,
+    0
+  ]
+}

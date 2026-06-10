@@ -1,0 +1,11 @@
+{
+  "tool": "pymupdf",
+  "source_pdf": "advanced_001_text_dense.pdf",
+  "pages": [
+    {
+      "page": 1,
+      "text": "ADVANCED TEXT PDF - DENSE CLINICAL NOTE\nPatient ID: ADV-001\nName: Nguyen Van Advanced\nDOB: 1962-06-22\nGender: Male\nClinical history: Hypertension diagnosed in 2018; Diabetes type 2 since 2020.\nAllergy: Penicillin - rash and facial swelling.\nCurrent medication: Metformin 500mg twice daily.\nCurrent medication: Amlodipine 5mg once daily.\nLaboratory results: Glucose: 11.2 mmol/L, reference 3.9-5.6, high.\nLaboratory results: Creatinine: 145 umol/L, reference 60-110, high.\nDoctor note: Patient needs follow-up; this demo does not provide medical advice.",
+      "char_count": 552
+    }
+  ]
+}

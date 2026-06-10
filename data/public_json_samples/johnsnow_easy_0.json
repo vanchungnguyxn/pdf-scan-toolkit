@@ -1,0 +1,185 @@
+{
+  "patient": {
+    "patient_id": "UNKNOWN",
+    "name": "Kimberly Lawrence",
+    "dob": "24/05/1977",
+    "gender": "Female"
+  },
+  "documents": [
+    {
+      "document_id": "DOC-001",
+      "doc_type": "emr_pdf_page",
+      "created_at": null,
+      "source_pdf": "johnsnow_easy_0.pdf",
+      "page": 1,
+      "raw_text": "Healthcare\nRecovery\nTrauma\nCenter\nKimberly Lawrence     24/05/1977\nSierra Valley Medical Institute INC\nPatient Summary\nKimberly Lawrence, born on 24/05/1977, is a 46-year-old Female. Her medical journey indicates a diagnosis of Type 2 Diabetes\nMellitus accompanied by Peripheral Neuropathy. Current management focuses on glycemic control through medication and lifestyle\nadjustments, with regular monitoring for neuropathy progression. Overall, the patient health status is stable with ongoing\nmanagement of chronic conditions.\nPatient Demographics\nName: Kimberly\nLawrence\nDOB: 24/05/1977\nAge: 46\nSex: Female\nSSN: 567-45-5412\nHospital ID: HOSP26508961\nPatient Lifestyle\nSmoking Status: Never\nAlcohol Consumption: Rarely\nDiet Preference: Diabetic-friendly\nExercise Habits: Mild\nPatient Vitals\nHeart Rate: 72\nRespiratory Rate: 16\nTemperature Celsius: 36.7\nOxygen Saturation Percent: 98\nBlood Pressure: 130/85 mmHg\nRecorded Date: 15/11/2024\nDoctor Information\nDoctor Name: \nCheryl\nBlankenship\nDoctor Unique ID:\nDR14144B\nSierra  Valley Medical Institute INC          (402) 738-5912                22/04/2025"
+    },
+    {
+      "document_id": "DOC-002",
+      "doc_type": "emr_pdf_page",
+      "created_at": null,
+      "source_pdf": "johnsnow_easy_0.pdf",
+      "page": 2,
+      "raw_text": "Healthcare\nRecovery\nTrauma\nCenter\nKimberly Lawrence     24/05/1977\nSierra Valley Medical Institute INC\nDoctor Notes\nSubjective Observations: Patient reports stable blood sugar levels and controlled peripheral neuropathy symptoms with current\nmedication regimen. Reports following a diabetic-friendly diet and mild exercise routine. Denies any recent episodes of\nhypoglycemia or hyperglycemia. Complains of occasional tingling in feet.\nAssesment: Patient presents with well-managed Type 2 Diabetes Mellitus and stable Peripheral Neuropathy. Lipid profile and renal\nfunction are within acceptable ranges. ECG shows no significant abnormalities.\nRecommendations: Continue current medication regimen. Reinforce adherence to diabetic diet and exercise plan. Consider adjusting\nGabapentin dosage if tingling becomes bothersome. Consider physical therapy consultation for neuropathy.\nFollow Up Instruction: Schedule follow-up appointment in 3 months for HbA1c and CMP monitoring. Return sooner if any new\nsymptoms arise or existing symptoms worsen.\nPast Hospital Visits\nDate\nReason\n02/08/2024\nRoutine Diabetes Check-up\n15/05/2024\nPeripheral Neuropathy Assessment\n22/02/2024\nFlu Symptoms\n10/11/2023\nAnnual Physical Exam\n05/08/2023\nEye Exam\n12/05/2023\nDiabetic Foot Exam\nCurrent Medications\nMedication Summary\nDosage\nFrequency\nMetformin\n500mg\nTwice daily\nGabapentin\n300mg\nThree times daily\nAtorvastatin\n20mg\nOnce daily\nLisinopril\n10mg\nOnce daily\nVitamin B12\n1000mcg\nOnce daily\nAspirin\n81mg\nOnce daily\nMedical Tests\nSierra  Valley Medical Institute INC          (402) 738-5912                22/04/2025"
+    },
+    {
+      "document_id": "DOC-003",
+      "doc_type": "emr_pdf_page",
+      "created_at": null,
+      "source_pdf": "johnsnow_easy_0.pdf",
+      "page": 3,
+      "raw_text": "Healthcare\nRecovery\nTrauma\nCenter\nKimberly Lawrence     24/05/1977\nSierra Valley Medical Institute INC\nMedication Test\nStatus\nOn/Last\nHbA1c\nDone\n08/11/2024\nLipid Panel\nDone\n08/11/2024\nComprehensive Metabolic Panel\nDone\n08/11/2024\nUrinalysis\nDone\n08/11/2024\nECG\nDone\n08/11/2024\nMicroalbumin\nPending\n15/11/2024\nSierra  Valley Medical Institute INC          (402) 738-5912                22/04/2025"
+    }
+  ],
+  "clinical_summary": {
+    "allergies": [],
+    "chronic_diseases": [
+      {
+        "name": "Type 2 Diabetes Mellitus",
+        "value": "Type 2 Diabetes Mellitus",
+        "status": "unknown",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Her medical journey indicates a diagnosis of Type 2 Diabetes Mellitus accompanied by Peripheral Neuropathy.",
+          "char_start": 182,
+          "char_end": 310,
+          "match_type": "fuzzy",
+          "confidence": 0.99
+        }
+      },
+      {
+        "name": "Peripheral Neuropathy",
+        "value": "Peripheral Neuropathy",
+        "status": "unknown",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Her medical journey indicates a diagnosis of Type 2 Diabetes Mellitus accompanied by Peripheral Neuropathy.",
+          "char_start": 182,
+          "char_end": 310,
+          "match_type": "fuzzy",
+          "confidence": 0.99
+        }
+      }
+    ],
+    "active_medications": [
+      {
+        "name": "Metformin",
+        "value": "Metformin",
+        "status": "unknown",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Current Medications: Metformin 500mg Twice daily",
+          "char_start": null,
+          "char_end": null,
+          "match_type": "not_found",
+          "confidence": 0.0
+        }
+      },
+      {
+        "name": "Gabapentin",
+        "value": "Gabapentin",
+        "status": "unknown",
+        "source": {
+          "document_id": "DOC-002",
+          "page": 2,
+          "evidence_text": "Current Medications: Gabapentin 300mg Three times daily",
+          "char_start": 1313,
+          "char_end": 1379,
+          "match_type": "fuzzy",
+          "confidence": 0.76
+        }
+      },
+      {
+        "name": "Atorvastatin",
+        "value": "Atorvastatin",
+        "status": "unknown",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Current Medications: Atorvastatin 20mg Once daily",
+          "char_start": null,
+          "char_end": null,
+          "match_type": "not_found",
+          "confidence": 0.0
+        }
+      },
+      {
+        "name": "Lisinopril",
+        "value": "Lisinopril",
+        "status": "unknown",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Current Medications: Lisinopril 10mg Once daily",
+          "char_start": null,
+          "char_end": null,
+          "match_type": "not_found",
+          "confidence": 0.0
+        }
+      },
+      {
+        "name": "Vitamin B12",
+        "value": "Vitamin B12",
+        "status": "unknown",
+        "source": {
+          "document_id": "DOC-002",
+          "page": 2,
+          "evidence_text": "Current Medications: Vitamin B12 1000mcg Once daily",
+          "char_start": 1428,
+          "char_end": 1489,
+          "match_type": "fuzzy",
+          "confidence": 0.76
+        }
+      },
+      {
+        "name": "Aspirin",
+        "value": "Aspirin",
+        "status": "unknown",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Current Medications: Aspirin 81mg Once daily",
+          "char_start": null,
+          "char_end": null,
+          "match_type": "not_found",
+          "confidence": 0.0
+        }
+      }
+    ],
+    "abnormal_labs": []
+  },
+  "metadata": {
+    "source_pdf": "johnsnow_easy_0.pdf",
+    "parser": "llm_structured_v1",
+    "extraction_mode": "llm",
+    "extraction_reason": "LLM extraction succeeded",
+    "tools": [
+      "PyMuPDF",
+      "pdfplumber",
+      "Camelot",
+      "Tesseract OCR enhanced",
+      "PyMuPDF layout blocks"
+    ],
+    "selected_pages": [
+      {
+        "page": 1,
+        "source_tool": "pymupdf",
+        "char_count": 1103
+      },
+      {
+        "page": 2,
+        "source_tool": "pymupdf",
+        "char_count": 1592
+      },
+      {
+        "page": 3,
+        "source_tool": "pymupdf",
+        "char_count": 395
+      }
+    ],
+    "tables_merged": 3
+  }
+}

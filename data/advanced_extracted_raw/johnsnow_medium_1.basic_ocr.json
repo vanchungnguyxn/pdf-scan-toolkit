@@ -1,0 +1,28 @@
+{
+  "tool": "pytesseract",
+  "source_pdf": "johnsnow_medium_1.pdf",
+  "status": "OCR_OK",
+  "reason": null,
+  "pages": [
+    {
+      "page": 1,
+      "text": "Patient Name : Justin Norman Date Of Birth : 28/12/1965.\n\nCoordinator For Healthplans - Encounter Summary for Justin\nNorman, Electronically signed by Dr. Sheri Peterson, FNP-C.\n\nSocial Security Number\n823-04-4760\n\nEncounter\nDate of Start Service\n\n02/02/1966\nEncounter Participant\n\nDr. Sheri Peterson\nContact\n\n848 Ortiz Ways, Anthonymouth, New York United States - 34153 Tel: (431) 274-5254\n\nAppointment Confirmation\nProvider: Dr. Sheri Peterson, MD\nConfirmed On: 04/06/1966 05:57 AM\nLocation:\n\n73496 Schmidt Extension, Stokesville, Kentucky United States - 77047\nPh. tel: (897) 447-1693\n\nTable Of Contents:\nPaitnet Summary\nPatient Demographics\nPatient Lifestyle\nPatient Vitals\n\nDoctor Information\nDoctor Notes\n\nPast Hospital Visit\nCurrent Medications\nMedical Tests\n\nPatient Summary\n\nJustin Norman, born on 28/12/1965, is a 59-year-old male. He has a history of\nhypertension, which is being managed with medication. Regular monitoring of his blood\npressure and lifestyle modifications are in place to maintain his current health status.",
+      "char_count": 1035
+    },
+    {
+      "page": 2,
+      "text": "Patient Name : Justin Norman Date Of Birth : 28/12/1965.\n\nPatient Demographics\nName: Justin Norman\n\nDOB: 28/12/1965\n\nAge: 59\n\nSex: Male\n\nSSN: 823-04-4760\n\nHospital ID:\nHOSP99700486\n\nPatient Lifestyle\n\nSmoking Status: Never\n\nAlcohol Consumption: Occasionally\nDiet Preference: Diabetic-friendly\nExercise Habits: Mild\n\nPatient Vitals\n\nHeart Rate: 72\n\nRespiratory Rate: 16\nTemperature Celsius: 36.8\nOxygen Saturation Percent: 98\nBlood Pressure: 130/85 mmHg\nRecorded Date: 03/11/2024\n\nDoctor Information\nDoctor Name:\n\nSheri\n\nPeterson\n\nDoctor Unique ID:\nDR54922B\n\nDoctor Notes\n\nSubjective Observations: Patient reports feeling generally well. Compliant with medication\nregimen. No new complaints.",
+      "char_count": 690
+    },
+    {
+      "page": 3,
+      "text": "Patient Name : Justin Norman Date Of Birth : 28/12/1965.\n\nAssesment: Hypertension is well-controlled with current medication. Metabolic panel is stable.\nECG normal. Reviewing Urine Analysis results upon completion.\n\nRecommendations: Continue current medication regimen. Maintain healthy lifestyle habits.\nFollow diabetic diet.\n\nFollow Up Instruction: Schedule follow-up appointment in 3 months for routine checkup and\nmedication review.\n\nPast Hospital Visits\n\nDate Reason\n\n15/08/2024 Routine Checkup\n22/08/2024 Hypertension Follow-up\n1102/2024 Flu Symptoms\n\nlosit 12023\n\n20108/2023 |Annual Physical Exam\n1105/2023 (Checkup with physician\n\nCurrent Medications\n\nMedication Summary Dosage Frequency\nLisinopril 20mg ‘Once daily\n\nAspirin Simg ‘Once daily\n\nVitamin D. 200010 ‘Once daily\nMetformin ‘500mg. Twice daily\nOmeprazole 20mg Once daily as needed\nMedical Tests\n\nMedication Test Status | On/Last\n\n|Complete Blood Count (CBC) Done 30/10/2024\n\n[Comprehensive Metabolic Panel (CMP) |Done 30/10/2024",
+      "char_count": 995
+    },
+    {
+      "page": 4,
+      "text": "Lipid Panet\n\nElectrocardiogram (ECG)\n\n[Urine Analysis Pending Jom 172024 |\n\nHbA Le Done fponoons |",
+      "char_count": 98
+    }
+  ]
+}

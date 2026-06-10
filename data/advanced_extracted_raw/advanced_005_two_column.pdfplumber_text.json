@@ -1,0 +1,11 @@
+{
+  "tool": "pdfplumber",
+  "source_pdf": "advanced_005_two_column.pdf",
+  "pages": [
+    {
+      "page": 1,
+      "text": "ADVANCED TWO-COLUMN CLINICAL SUMMARY\nPatient ID: ADV-005 Current medication:\nName: Hoang Van Columns - Losartan 50mg once daily.\nDOB: 1965-08-30 - Amlodipine 5mg once daily.\nGender: Male Laboratory results:\nClinical history: Creatinine: 170 umol/L, reference 60-110, high.\n- Hypertension since 2017. eGFR: 45 mL/min, reference 90-120, low.\n- Chronic kidney disease CKD.\nAllergy: Penicillin - rash.",
+      "char_count": 397
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "tool": "pdfplumber",
+  "source_pdf": "patient_004_mixed.pdf",
+  "tables": []
+}

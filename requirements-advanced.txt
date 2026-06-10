@@ -1,0 +1,8 @@
+# Advanced PDF extraction tools
+-r requirements.txt
+pytesseract
+opencv-python-headless
+camelot-py
+pandas
+numpy
+rapidfuzz>=3.0.0

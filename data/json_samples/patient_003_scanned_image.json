@@ -1,0 +1,74 @@
+{
+  "patient": {
+    "patient_id": "PT-003",
+    "name": "Le Van C",
+    "dob": "1980-11-02",
+    "gender": "Nam"
+  },
+  "documents": [
+    {
+      "document_id": "DOC-001",
+      "doc_type": "emr_pdf_page",
+      "created_at": null,
+      "source_pdf": "patient_003_scanned_image.pdf",
+      "page": 1,
+      "raw_text": "SCANNED CLINICAL NOTE - IMAGE ONLY PDF\n\nMa benh nhan: PT-003\n\nHo ten: Le Van C\n\nNgay sinh: 1980-11-02\n\nGioi tinh: Nam\n\nTien su benh: Hen phe quan.\n\nDi ung: Di ung Aspirin, kho tho.\n\nThuoc dang dung: Insulin 10 Ul truoc bua sang.\n\nXet nghiem: HbAIc: 8.2 %, tham chieu 4.0-5.6, cao."
+    }
+  ],
+  "clinical_summary": {
+    "allergies": [
+      {
+        "name": "Allergy",
+        "value": "Aspirin, kho tho.",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Di ung: Di ung Aspirin, kho tho."
+        }
+      }
+    ],
+    "chronic_diseases": [
+      {
+        "name": "Chronic disease",
+        "value": "hen phe quan",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Tien su benh: Hen phe quan."
+        }
+      }
+    ],
+    "active_medications": [
+      {
+        "name": "Active medication",
+        "value": "Insulin 10 Ul truoc bua sang.",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Thuoc dang dung: Insulin 10 Ul truoc bua sang."
+        }
+      }
+    ],
+    "abnormal_labs": [
+      {
+        "test_name": "HbAIc",
+        "value": "8.2",
+        "unit": "%",
+        "reference_range": "4.0-5.6",
+        "interpretation": "high",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Xet nghiem: HbAIc: 8.2 %, tham chieu 4.0-5.6, cao."
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source_pdf": "patient_003_scanned_image.pdf",
+    "parser": "rule_regex_v0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "tool": "pymupdf",
+  "source_pdf": "advanced_003_noisy_scan.pdf",
+  "pages": [
+    {
+      "page": 1,
+      "text": "",
+      "char_count": 0
+    }
+  ]
+}

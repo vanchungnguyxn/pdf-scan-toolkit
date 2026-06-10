@@ -1,0 +1,18 @@
+{
+  "tool": "pymupdf_layout_blocks",
+  "source_pdf": "johnsnow_hard_1.pdf",
+  "pages": [
+    {
+      "page": 1,
+      "blocks": [],
+      "block_count": 0,
+      "char_count": 0
+    },
+    {
+      "page": 2,
+      "blocks": [],
+      "block_count": 0,
+      "char_count": 0
+    }
+  ]
+}

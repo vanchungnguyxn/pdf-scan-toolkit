@@ -1,0 +1,133 @@
+{
+  "tool": "pymupdf_layout_blocks",
+  "source_pdf": "advanced_001_text_dense.pdf",
+  "pages": [
+    {
+      "page": 1,
+      "blocks": [
+        {
+          "bbox": [
+            51.02,
+            30.69,
+            302.23,
+            45.81
+          ],
+          "text": "ADVANCED TEXT PDF - DENSE CLINICAL NOTE",
+          "char_count": 39
+        },
+        {
+          "bbox": [
+            51.02,
+            50.54,
+            150.07,
+            65.65
+          ],
+          "text": "Patient ID: ADV-001",
+          "char_count": 19
+        },
+        {
+          "bbox": [
+            51.02,
+            70.38,
+            198.98,
+            85.49
+          ],
+          "text": "Name: Nguyen Van Advanced",
+          "char_count": 25
+        },
+        {
+          "bbox": [
+            51.02,
+            90.22,
+            137.23,
+            105.34
+          ],
+          "text": "DOB: 1962-06-22",
+          "char_count": 15
+        },
+        {
+          "bbox": [
+            51.02,
+            110.06,
+            117.66,
+            125.18
+          ],
+          "text": "Gender: Male",
+          "char_count": 12
+        },
+        {
+          "bbox": [
+            51.02,
+            129.91,
+            427.64,
+            145.02
+          ],
+          "text": "Clinical history: Hypertension diagnosed in 2018; Diabetes type 2 since 2020.",
+          "char_count": 77
+        },
+        {
+          "bbox": [
+            51.02,
+            149.75,
+            260.69,
+            164.86
+          ],
+          "text": "Allergy: Penicillin - rash and facial swelling.",
+          "char_count": 47
+        },
+        {
+          "bbox": [
+            51.02,
+            169.59,
+            292.48,
+            184.71
+          ],
+          "text": "Current medication: Metformin 500mg twice daily.",
+          "char_count": 48
+        },
+        {
+          "bbox": [
+            51.02,
+            189.43,
+            284.55,
+            204.55
+          ],
+          "text": "Current medication: Amlodipine 5mg once daily.",
+          "char_count": 46
+        },
+        {
+          "bbox": [
+            51.02,
+            209.28,
+            372.0,
+            224.39
+          ],
+          "text": "Laboratory results: Glucose: 11.2 mmol/L, reference 3.9-5.6, high.",
+          "char_count": 66
+        },
+        {
+          "bbox": [
+            51.02,
+            229.12,
+            375.68,
+            244.23
+          ],
+          "text": "Laboratory results: Creatinine: 145 umol/L, reference 60-110, high.",
+          "char_count": 67
+        },
+        {
+          "bbox": [
+            51.02,
+            248.96,
+            445.37,
+            264.08
+          ],
+          "text": "Doctor note: Patient needs follow-up; this demo does not provide medical advice.",
+          "char_count": 80
+        }
+      ],
+      "block_count": 12,
+      "char_count": 541
+    }
+  ]
+}

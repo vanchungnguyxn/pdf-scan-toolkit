@@ -1,0 +1,13 @@
+{
+  "tool": "pytesseract",
+  "source_pdf": "patient_003_scanned_image.pdf",
+  "status": "OCR_OK",
+  "reason": null,
+  "pages": [
+    {
+      "page": 1,
+      "text": "SCANNED CLINICAL NOTE - IMAGE ONLY PDF\n\nMa benh nhan: PT-003\n\nHo ten: Le Van C\n\nNgay sinh: 1980-11-02\n\nGioi tinh: Nam\n\nTien su benh: Hen phe quan.\n\nDi ung: Di ung Aspirin, kho tho.\n\nThuoc dang dung: Insulin 10 Ul truoc bua sang.\n\nXet nghiem: HbAIc: 8.2 %, tham chieu 4.0-5.6, cao.",
+      "char_count": 280
+    }
+  ]
+}

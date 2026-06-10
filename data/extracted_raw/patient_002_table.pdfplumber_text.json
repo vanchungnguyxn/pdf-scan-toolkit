@@ -1,0 +1,11 @@
+{
+  "tool": "pdfplumber",
+  "source_pdf": "patient_002_table.pdf",
+  "pages": [
+    {
+      "page": 1,
+      "text": "LAB AND MEDICATION PDF - TABLE LAYOUT\nMa benh nhan: PT-002\nHo ten: Tran Thi B\nNgay sinh: 1975-07-20\nGioi tinh: Nu\nTien su benh: Tang huyet ap; Suy than man tinh CKD stage 3.\nDi ung: Khong ghi nhan di ung thuoc trong ho so nay.\nThuoc dang dung\nMedication Dose Frequency Status\nLosartan 50mg 1 lan/ngay active\nAtorvastatin 20mg 1 lan toi active\nKet qua xet nghiem\nTest Value Unit Reference Range Flag\nGlucose 5.2 mmol/L 3.9-5.6 Normal\nCreatinine 180 umol/L 60-110 High\neGFR 42 mL/min 90-120 Low",
+      "char_count": 492
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "tool": "pdfplumber",
+  "source_pdf": "johnsnow_easy_1.pdf",
+  "pages": [
+    {
+      "page": 1,
+      "text": "Healthcare Elizabeth Williams 07/06/1949\nRecovery Sierra Valley Medical Institute INC\nTrauma\nCenter\nPatient Summary\nElizabeth Williams, born on 07/06/1949 and aged 56, is a female patient with a history of Type 2 Diabetes Mellitus. Her medical\njourney includes management of peripheral neuropathy associated with her diabetes. Current health status involves ongoing\nmonitoring of blood glucose levels and pain management.\nPatient Demographics\nName: Elizabeth\nWilliams\nDOB: 07/06/1949\nAge: 56\nSex: Female\nSSN: 497-78-2934\nHospital ID:\nHOSP17622343\nPatient Lifestyle\nSmoking Status: Former\nAlcohol Consumption: Rarely\nDiet Preference: Diabetic-friendly\nExercise Habits: Mild\nPatient Vitals\nHeart Rate: 78\nRespiratory Rate: 16\nTemperature Celsius: 36.8\nOxygen Saturation Percent: 97\nBlood Pressure: 130/85 mmHg\nRecorded Date: 15/11/2024\nDoctor Information\nDoctor Name:\nSamantha\nWatson\nDoctor Unique ID: DR37377A\nSierra Valley Medical Institute INC (402) 738-5912 22/04/2025",
+      "char_count": 970
+    },
+    {
+      "page": 2,
+      "text": "Healthcare Elizabeth Williams 07/06/1949\nRecovery Sierra Valley Medical Institute INC\nTrauma\nCenter\nDoctor Notes\nSubjective Observations: Patient reports continued pain in lower extremities, particularly at night. Reports good adherence to\nmedication regimen and diet. Patient reports occasionally feeling dizzy.\nAssesment: Patient remains stable with Type 2 Diabetes Mellitus and peripheral neuropathy. Glucose control is within target range,\nbut neuropathy symptoms persist. Dizziness could be related to medication or blood pressure; further investigation warranted.\nRecommendations: Continue current medication regimen. Monitor blood glucose levels regularly. Start taking blood pressure at\nhome. Consider referral to physical therapy for neuropathy. Rule out medication-related dizziness.\nFollow Up Instruction: Follow-up appointment in 3 months. Schedule ECG and peripheral nerve conduction study. Contact clinic if\ndizziness worsens or new symptoms develop.\nPast Hospital Visits\nDate Reason\n03/03/2024 Annual physical exam\n15/05/2024 Follow-up for diabetes management\n22/07/2024 Neuropathy pain assessment\n10/08/2024 Diabetic foot exam\n05/10/2024 Influenza vaccination\n28/10/2024 Glucose levels control\nCurrent Medications\nMedication Summary Dosage Frequency\nMetformin 500mg Twice daily\nGabapentin 300mg Three times daily\nLisinopril 10mg Once daily\nAtorvastatin 20mg Once daily\nMultivitamin 1 tablet Once daily\nVitamin D 2000 IU Once daily\nMedical Tests\nSierra Valley Medical Institute INC (402) 738-5912 22/04/2025",
+      "char_count": 1522
+    },
+    {
+      "page": 3,
+      "text": "Healthcare Elizabeth Williams 07/06/1949\nRecovery Sierra Valley Medical Institute INC\nTrauma\nCenter\nMedication Test Status On/Last\nHbA1c Done 08/11/2024\nLipid Panel Done 08/11/2024\nComprehensive Metabolic Panel (CMP) Done 08/11/2024\nUrinalysis Done 08/11/2024\nECG Pending 18/11/2024\nPeripheral Nerve Conduction Study Pending 22/11/2024\nSierra Valley Medical Institute INC (402) 738-5912 22/04/2025",
+      "char_count": 397
+    }
+  ]
+}

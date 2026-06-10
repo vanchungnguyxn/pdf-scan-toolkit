@@ -1,0 +1,12 @@
+{
+  "tool": "pymupdf_layout_blocks",
+  "source_pdf": "advanced_003_noisy_scan.pdf",
+  "pages": [
+    {
+      "page": 1,
+      "blocks": [],
+      "block_count": 0,
+      "char_count": 0
+    }
+  ]
+}

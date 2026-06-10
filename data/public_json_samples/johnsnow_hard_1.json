@@ -1,0 +1,73 @@
+{
+  "patient": {
+    "patient_id": "9509645",
+    "name": "Beth Barber",
+    "dob": "10/22/1981",
+    "gender": "female"
+  },
+  "documents": [
+    {
+      "document_id": "DOC-001",
+      "doc_type": "emr_pdf_page",
+      "created_at": null,
+      "source_pdf": "johnsnow_hard_1.pdf",
+      "page": 1,
+      "raw_text": "Apollo Diagnostic Form DF-196\n\nHealth System\nAPOLLO PATHOLOGY ASSOCIATES, INC\nCHRISTIAN CHURCH CITY HOSPITAL\nDEPARTMENT OF PATHOLOGY 742 Main Avenue\nAND ARTIFICIAL SCIENCE Toledo, OH 43615\n(Gag) Bs aie\n\nFINAL P. PATIENT SUMMARY REPORT\n\nNT NAMI 9509645\nDoB: 10/22/1981 44y aod BILLING NO: 2724195\nLOCATION: Texas PROCEDURE DATE: 04/14/2025\n\n®urceON: kayla Porter RECEIVED DATE: 04/16/2025 I\nDOCTOR: Ricky Mcguire REPORT DATE: 04/18/2025\nDIAGNOSIS:\nOsteoarthritis\nDOCTOR NOTES:\n\nPatient reports ongoing joint pain, particularly in the knees and hips. Pain is worse with activity and improves\nwith rest. Reports stiffness in the morning lasting approximately 30 minutes. Patient denies fever, chills, or\nweight loss.Patient presents with osteoarthritis, Symptoms are consistent with the diagnosis, Considering\npatient's age and activity level, a conservative treatment approach is recommended.Continue current\nmedication regimen. Encourage low-impact exercises such as swimming or cycling, Physical therapy referral\nfor targeted exercises to strengthen muscles around affected joints. Consider hyaluronic acid injections if\nsymptoms persist despite conservative management.\n\ns\nPATIENT SUMMARY:\n\nBeth Barber, born on 22/10/1981, is a 44-year-old female patient. Her medical journey includes past episodes\nof joint pain managed with medication. Current health status involves ongoing monitoring and management of\nosteoarthritis to improve function and reduce discomfort. Regular follow-up appointments are scheduled to\nassess progress and adjust treatment plans as needed.\n\nPATIENT LIFESTYLE AND VITALS:\nSmoking Status: Never\nAlcohol Consumption: Occasionally\nDiet Preference: Diabetic-friendly\nise Habits: Mita I\nHeart Rate: 72\nRespiratory Rate: 16\nTemperature Celsius: 36.8\nOxygen Saturation Percent: 98\nBlood Pressure: 130/80 mmHg\nRecorded Date: 26/10/2023\n\nDEPARTMENT OF PATHOLOGY AND ARTIFICIAL SCIENCE\nTOLEDO, OH (419) 555-8923\nDIAGNOSTIC FORM REPORT"
+    },
+    {
+      "document_id": "DOC-002",
+      "doc_type": "emr_pdf_page",
+      "created_at": null,
+      "source_pdf": "johnsnow_hard_1.pdf",
+      "page": 2,
+      "raw_text": "FINAL PATIENT SUMMARY REPORT,\n\nPATIENT NAME: Beth Barber Diagnostic Form: DF-196\nMRN: 9509645\n\nPast Hospital Visits\nDate Reason\n15/01/2023 Joint pain evaluation\nAR Physical therapy consultation\n10/05/2023 Medication review\n18/07/2023 X-ray of knee\n05/09/2023 Follow-up appointment\n12/10/2023 Osteoarthritis Management\nMedical Tests\nMedication Test ‘Status: OnlLast\nes. Blood Count (CBC) Done 19/10/2023\n‘Comprehensive Metabolic Panel (CMP) Done 19/10/2023\nLipid Panel Done 19/10/2023\nVitamin D Level Done 19/10/2023\nC-Reactive Protein (CRP) Done 19/10/2023\nRheumatoid Factor (RF) Done 19/10/2023\nThomas Underwood\n6 “Electronically Signed Insurance Agent\n\nDEPARTMENT OF PATHOLOGY AND ARTIFICIAL SCIENCE\nTOLEDO, OH (419) 555-8923\nDIAGNOSTIC FORM REPORT"
+    }
+  ],
+  "clinical_summary": {
+    "allergies": [],
+    "chronic_diseases": [
+      {
+        "name": "Osteoarthritis",
+        "value": "Osteoarthritis",
+        "status": "unknown",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Patient presents with osteoarthritis, Symptoms are consistent with the diagnosis",
+          "char_start": 713,
+          "char_end": 793,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      }
+    ],
+    "active_medications": [],
+    "abnormal_labs": []
+  },
+  "metadata": {
+    "source_pdf": "johnsnow_hard_1.pdf",
+    "parser": "llm_structured_v1",
+    "extraction_mode": "llm",
+    "extraction_reason": "LLM extraction succeeded",
+    "tools": [
+      "PyMuPDF",
+      "pdfplumber",
+      "Camelot",
+      "Tesseract OCR enhanced",
+      "PyMuPDF layout blocks"
+    ],
+    "selected_pages": [
+      {
+        "page": 1,
+        "source_tool": "tesseract_basic",
+        "char_count": 1951
+      },
+      {
+        "page": 2,
+        "source_tool": "tesseract_basic",
+        "char_count": 750
+      }
+    ],
+    "tables_merged": 0
+  }
+}

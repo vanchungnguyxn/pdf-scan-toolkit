@@ -1,0 +1,106 @@
+{
+  "patient": {
+    "patient_id": "PT-001",
+    "name": "Nguyen Van A",
+    "dob": "1968-03-12",
+    "gender": "Nam"
+  },
+  "documents": [
+    {
+      "document_id": "DOC-001",
+      "doc_type": "emr_pdf_page",
+      "created_at": null,
+      "source_pdf": "patient_001_text.pdf",
+      "page": 1,
+      "raw_text": "CLINICAL NOTE - TEXT PDF\nMa benh nhan: PT-001\nHo ten: Nguyen Van A\nNgay sinh: 1968-03-12\nGioi tinh: Nam\nTien su benh:\n- Tang huyet ap tu nam 2020, dang dieu tri on dinh.\n- Dai thao duong type 2 tu nam 2021.\nDi ung:\n- Di ung Penicillin, phan ung noi man do.\nThuoc dang dung:\n- Metformin 500mg, uong 2 lan/ngay.\n- Amlodipine 5mg, uong 1 lan/ngay.\nXet nghiem:\nGlucose: 9.8 mmol/L, tham chieu 3.9-5.6, cao.\nCreatinine: 150 umol/L, tham chieu 60-110, cao."
+    }
+  ],
+  "clinical_summary": {
+    "allergies": [
+      {
+        "name": "Allergy",
+        "value": "Penicillin, phan ung noi man do.",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "- Di ung Penicillin, phan ung noi man do."
+        }
+      }
+    ],
+    "chronic_diseases": [
+      {
+        "name": "Chronic disease",
+        "value": "tang huyet ap",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "- Tang huyet ap tu nam 2020, dang dieu tri on dinh."
+        }
+      },
+      {
+        "name": "Chronic disease",
+        "value": "dai thao duong",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "- Dai thao duong type 2 tu nam 2021."
+        }
+      }
+    ],
+    "active_medications": [
+      {
+        "name": "Active medication",
+        "value": "Metformin 500mg, uong 2 lan/ngay.",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "- Metformin 500mg, uong 2 lan/ngay."
+        }
+      },
+      {
+        "name": "Active medication",
+        "value": "Amlodipine 5mg, uong 1 lan/ngay.",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "- Amlodipine 5mg, uong 1 lan/ngay."
+        }
+      }
+    ],
+    "abnormal_labs": [
+      {
+        "test_name": "Glucose",
+        "value": "9.8",
+        "unit": "mmol/L",
+        "reference_range": "3.9-5.6",
+        "interpretation": "high",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Glucose: 9.8 mmol/L, tham chieu 3.9-5.6, cao."
+        }
+      },
+      {
+        "test_name": "Creatinine",
+        "value": "150",
+        "unit": "umol/L",
+        "reference_range": "60-110",
+        "interpretation": "high",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Creatinine: 150 umol/L, tham chieu 60-110, cao."
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source_pdf": "patient_001_text.pdf",
+    "parser": "rule_regex_v0"
+  }
+}

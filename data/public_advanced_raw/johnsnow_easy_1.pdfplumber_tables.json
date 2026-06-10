@@ -1,0 +1,47 @@
+{
+  "tool": "pdfplumber",
+  "source_pdf": "johnsnow_easy_1.pdf",
+  "tables": [
+    {
+      "page": 3,
+      "table_index": 0,
+      "rows": [
+        [
+          "Medication Test",
+          "Status",
+          "On/Last"
+        ],
+        [
+          "HbA1c",
+          "Done",
+          "08/11/2024"
+        ],
+        [
+          "Lipid Panel",
+          "Done",
+          "08/11/2024"
+        ],
+        [
+          "Comprehensive Metabolic Panel (CMP)",
+          "Done",
+          "08/11/2024"
+        ],
+        [
+          "Urinalysis",
+          "Done",
+          "08/11/2024"
+        ],
+        [
+          "ECG",
+          "Pending",
+          "18/11/2024"
+        ],
+        [
+          "Peripheral Nerve Conduction Study",
+          "Pending",
+          "22/11/2024"
+        ]
+      ]
+    }
+  ]
+}

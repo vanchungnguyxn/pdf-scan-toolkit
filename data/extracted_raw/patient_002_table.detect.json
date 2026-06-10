@@ -1,0 +1,9 @@
+{
+  "file_path": "data/pdf_samples/patient_002_table.pdf",
+  "pdf_type": "text_pdf",
+  "total_pages": 1,
+  "has_text_layer": true,
+  "page_char_counts": [
+    492
+  ]
+}

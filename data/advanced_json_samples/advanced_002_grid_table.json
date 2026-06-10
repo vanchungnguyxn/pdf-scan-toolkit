@@ -1,0 +1,214 @@
+{
+  "patient": {
+    "patient_id": "ADV-002",
+    "name": "Tran Thi Table",
+    "dob": "1970-01-09",
+    "gender": "female"
+  },
+  "documents": [
+    {
+      "document_id": "DOC-001",
+      "doc_type": "emr_pdf_page",
+      "created_at": null,
+      "source_pdf": "advanced_002_grid_table.pdf",
+      "page": 1,
+      "raw_text": "ADVANCED TABLE PDF - GRID LAB +\nMEDICATION\nPatient ID: ADV-002\nName: Tran Thi Table\nDOB: 1970-01-09\nGender: Female\nClinical history: Chronic kidney disease CKD stage 3; Hypertension.\nAllergy: No known drug allergy recorded.\nCurrent Medications\nMedication\nDose\nFrequency\nStatus\nLosartan\n50mg\nonce daily\nactive\nAtorvastatin\n20mg\nnight\nactive\nLaboratory Results\nTest\nValue\nUnit\nReference Range\nFlag\nGlucose\n5.3\nmmol/L\n3.9-5.6\nNormal\nCreatinine\n190\numol/L\n60-110\nHigh\neGFR\n38\nmL/min\n90-120\nLow\nHbA1c\n8.5\n%\n4.0-5.6\nHigh"
+    }
+  ],
+  "clinical_summary": {
+    "allergies": [],
+    "chronic_diseases": [
+      {
+        "name": "Chronic disease",
+        "value": "hypertension",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Clinical history: Chronic kidney disease CKD stage 3; Hypertension.",
+          "char_start": 115,
+          "char_end": 182,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      },
+      {
+        "name": "Chronic disease",
+        "value": "chronic kidney disease",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Clinical history: Chronic kidney disease CKD stage 3; Hypertension.",
+          "char_start": 115,
+          "char_end": 182,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      },
+      {
+        "name": "Chronic disease",
+        "value": "ckd",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Clinical history: Chronic kidney disease CKD stage 3; Hypertension.",
+          "char_start": 115,
+          "char_end": 182,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      }
+    ],
+    "active_medications": [
+      {
+        "name": "Active medication",
+        "value": "Current Medications",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Current Medications",
+          "char_start": 224,
+          "char_end": 243,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      },
+      {
+        "name": "Active medication",
+        "value": "Losartan",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Losartan",
+          "char_start": 277,
+          "char_end": 285,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      },
+      {
+        "name": "Active medication",
+        "value": "Atorvastatin",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Atorvastatin",
+          "char_start": 309,
+          "char_end": 321,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      }
+    ],
+    "abnormal_labs": [
+      {
+        "test_name": "Creatinine",
+        "value": "190",
+        "unit": "umol/L",
+        "reference_range": "60-110",
+        "interpretation": "high",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Creatinine | 190 | umol/L | 60-110 | High",
+          "char_start": 430,
+          "char_end": 481,
+          "match_type": "fuzzy",
+          "confidence": 0.78
+        }
+      },
+      {
+        "test_name": "eGFR",
+        "value": "38",
+        "unit": "mL/min",
+        "reference_range": "90-120",
+        "interpretation": "low",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "eGFR | 38 | mL/min | 90-120 | Low",
+          "char_start": null,
+          "char_end": null,
+          "match_type": "table_page_level",
+          "confidence": 0.5
+        }
+      },
+      {
+        "test_name": "HbA1c",
+        "value": "8.5",
+        "unit": "%",
+        "reference_range": "4.0-5.6",
+        "interpretation": "high",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "HbA1c | 8.5 | % | 4.0-5.6 | High",
+          "char_start": null,
+          "char_end": null,
+          "match_type": "table_page_level",
+          "confidence": 0.5
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source_pdf": "advanced_002_grid_table.pdf",
+    "parser": "rule_regex_v1",
+    "patient_normalization": {
+      "patient_id": "ADV-002",
+      "name": "Tran Thi Table",
+      "dob": "1970-01-09",
+      "gender": "female",
+      "age": null,
+      "normalization_confidence": 1.0,
+      "source_spans": {
+        "patient_id": {
+          "page": 1,
+          "text": "Patient ID: ADV-002",
+          "start": 55,
+          "end": 62
+        },
+        "name": {
+          "page": 1,
+          "text": "Name: Tran Thi Table",
+          "start": 69,
+          "end": 83
+        },
+        "dob": {
+          "page": 1,
+          "text": "DOB: 1970-01-09",
+          "start": 89,
+          "end": 99
+        },
+        "gender": {
+          "page": 1,
+          "text": "Gender: Female",
+          "start": 108,
+          "end": 114
+        }
+      }
+    },
+    "extraction_mode": "rule_based",
+    "extraction_reason": "LLM disabled",
+    "tools": [
+      "PyMuPDF",
+      "pdfplumber",
+      "Camelot",
+      "Tesseract OCR enhanced",
+      "PyMuPDF layout blocks"
+    ],
+    "selected_pages": [
+      {
+        "page": 1,
+        "source_tool": "pymupdf",
+        "char_count": 514
+      }
+    ],
+    "tables_merged": 2
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "tool": "pymupdf_layout_blocks",
+  "source_pdf": "johnsnow_medium_0.pdf",
+  "pages": [
+    {
+      "page": 1,
+      "blocks": [],
+      "block_count": 0,
+      "char_count": 0
+    },
+    {
+      "page": 2,
+      "blocks": [],
+      "block_count": 0,
+      "char_count": 0
+    },
+    {
+      "page": 3,
+      "blocks": [],
+      "block_count": 0,
+      "char_count": 0
+    },
+    {
+      "page": 4,
+      "blocks": [],
+      "block_count": 0,
+      "char_count": 0
+    }
+  ]
+}

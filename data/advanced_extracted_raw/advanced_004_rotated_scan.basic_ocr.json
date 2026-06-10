@@ -1,0 +1,13 @@
+{
+  "tool": "pytesseract",
+  "source_pdf": "advanced_004_rotated_scan.pdf",
+  "status": "OCR_OK",
+  "reason": null,
+  "pages": [
+    {
+      "page": 1,
+      "text": "somexororrn som oF\n\ncarrie eterna",
+      "char_count": 33
+    }
+  ]
+}

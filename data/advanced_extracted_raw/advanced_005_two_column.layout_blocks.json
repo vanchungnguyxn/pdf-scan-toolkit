@@ -1,0 +1,163 @@
+{
+  "tool": "pymupdf_layout_blocks",
+  "source_pdf": "advanced_005_two_column.pdf",
+  "pages": [
+    {
+      "page": 1,
+      "blocks": [
+        {
+          "bbox": [
+            51.02,
+            32.14,
+            401.81,
+            52.79
+          ],
+          "text": "ADVANCED TWO-COLUMN CLINICAL SUMMARY",
+          "char_count": 36
+        },
+        {
+          "bbox": [
+            51.02,
+            94.13,
+            141.06,
+            107.87
+          ],
+          "text": "Patient ID: ADV-005",
+          "char_count": 19
+        },
+        {
+          "bbox": [
+            51.02,
+            116.81,
+            175.51,
+            130.55
+          ],
+          "text": "Name: Hoang Van Columns",
+          "char_count": 23
+        },
+        {
+          "bbox": [
+            51.02,
+            139.49,
+            129.39,
+            153.23
+          ],
+          "text": "DOB: 1965-08-30",
+          "char_count": 15
+        },
+        {
+          "bbox": [
+            51.02,
+            162.16,
+            111.6,
+            175.9
+          ],
+          "text": "Gender: Male",
+          "char_count": 12
+        },
+        {
+          "bbox": [
+            51.02,
+            184.84,
+            118.25,
+            198.58
+          ],
+          "text": "Clinical history:",
+          "char_count": 17
+        },
+        {
+          "bbox": [
+            51.02,
+            207.52,
+            169.96,
+            221.26
+          ],
+          "text": "- Hypertension since 2017.",
+          "char_count": 26
+        },
+        {
+          "bbox": [
+            51.02,
+            230.19,
+            187.17,
+            243.93
+          ],
+          "text": "- Chronic kidney disease CKD.",
+          "char_count": 29
+        },
+        {
+          "bbox": [
+            51.02,
+            252.87,
+            157.71,
+            266.61
+          ],
+          "text": "Allergy: Penicillin - rash.",
+          "char_count": 27
+        },
+        {
+          "bbox": [
+            311.81,
+            94.13,
+            399.06,
+            107.87
+          ],
+          "text": "Current medication:",
+          "char_count": 19
+        },
+        {
+          "bbox": [
+            311.81,
+            116.81,
+            435.2,
+            130.55
+          ],
+          "text": "- Losartan 50mg once daily.",
+          "char_count": 27
+        },
+        {
+          "bbox": [
+            311.81,
+            139.49,
+            440.19,
+            153.23
+          ],
+          "text": "- Amlodipine 5mg once daily.",
+          "char_count": 28
+        },
+        {
+          "bbox": [
+            311.81,
+            162.16,
+            394.62,
+            175.9
+          ],
+          "text": "Laboratory results:",
+          "char_count": 19
+        },
+        {
+          "bbox": [
+            311.81,
+            184.84,
+            521.36,
+            198.58
+          ],
+          "text": "Creatinine: 170 umol/L, reference 60-110, high.",
+          "char_count": 47
+        },
+        {
+          "bbox": [
+            311.81,
+            207.52,
+            495.77,
+            221.26
+          ],
+          "text": "eGFR: 45 mL/min, reference 90-120, low.",
+          "char_count": 39
+        }
+      ],
+      "block_count": 15,
+      "char_count": 383
+    }
+  ]
+}

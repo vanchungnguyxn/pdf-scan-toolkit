@@ -1,0 +1,26 @@
+{
+  "tool": "tesseract_enhanced",
+  "source_pdf": "advanced_006_mixed_text_scan.pdf",
+  "status": "OCR_EMPTY",
+  "reason": "No text recognized",
+  "pages": [
+    {
+      "page": 1,
+      "text": "",
+      "char_count": 0,
+      "error": "No module named 'cv2'",
+      "dpi": 90,
+      "lang": "eng",
+      "preprocess": true
+    },
+    {
+      "page": 2,
+      "text": "",
+      "char_count": 0,
+      "error": "No module named 'cv2'",
+      "dpi": 90,
+      "lang": "eng",
+      "preprocess": true
+    }
+  ]
+}

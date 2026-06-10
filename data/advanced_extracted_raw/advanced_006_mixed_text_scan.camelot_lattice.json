@@ -1,0 +1,7 @@
+{
+  "tool": "camelot_lattice",
+  "source_pdf": "advanced_006_mixed_text_scan.pdf",
+  "status": "CAMELOT_SKIPPED",
+  "reason": "Selective skip: no table-like text detected or scanned PDF",
+  "tables": []
+}

@@ -1,0 +1,18 @@
+{
+  "tool": "pytesseract",
+  "source_pdf": "patient_004_mixed.pdf",
+  "status": "OCR_OK",
+  "reason": null,
+  "pages": [
+    {
+      "page": 1,
+      "text": "MIXED PDF - PAGE 1 HAS TEXT LAYER\n\nMa benh nhan: PT-004\n\nHo ten: Pham Thi D\n\nNgay sinh: 1990-04-15\n\nGioi tinh: Nu\n\nTien su benh: Dai thao duong thai ky nam 2024.\nDi ung: Di ung hai san, noi me day.\n\nThuoc dang dung:\n\n- Metformin 500mg, uong 1 lan/ngay.",
+      "char_count": 252
+    },
+    {
+      "page": 2,
+      "text": "PAGE 2 SCANNED LAB IMAGE\n\nGlucose: 10.5 mmol/L, tham chieu 3.9-5.6, cao.",
+      "char_count": 72
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "pdf_count": 4,
+  "json_count": 4,
+  "report_path": "data/demo_outputs/pdf_scan_report.md",
+  "rows": [
+    {
+      "file": "patient_001_text.pdf",
+      "detected_type": "text_pdf",
+      "pages": 1,
+      "pymupdf_chars": 450,
+      "pdfplumber_chars": 450,
+      "tables_found": 0,
+      "ocr_status": "OCR_OK",
+      "json_status": "PARSED",
+      "citation_coverage": "100.0%"
+    },
+    {
+      "file": "patient_002_table.pdf",
+      "detected_type": "text_pdf",
+      "pages": 1,
+      "pymupdf_chars": 492,
+      "pdfplumber_chars": 492,
+      "tables_found": 2,
+      "ocr_status": "OCR_OK",
+      "json_status": "PARSED",
+      "citation_coverage": "100.0%"
+    },
+    {
+      "file": "patient_003_scanned_image.pdf",
+      "detected_type": "scanned_pdf",
+      "pages": 1,
+      "pymupdf_chars": 0,
+      "pdfplumber_chars": 0,
+      "tables_found": 0,
+      "ocr_status": "OCR_OK",
+      "json_status": "PARSED",
+      "citation_coverage": "100.0%"
+    },
+    {
+      "file": "patient_004_mixed.pdf",
+      "detected_type": "mixed_pdf",
+      "pages": 2,
+      "pymupdf_chars": 245,
+      "pdfplumber_chars": 245,
+      "tables_found": 0,
+      "ocr_status": "OCR_OK",
+      "json_status": "PARSED",
+      "citation_coverage": "100.0%"
+    }
+  ]
+}

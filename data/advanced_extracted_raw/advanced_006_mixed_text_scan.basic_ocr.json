@@ -1,0 +1,18 @@
+{
+  "tool": "pytesseract",
+  "source_pdf": "advanced_006_mixed_text_scan.pdf",
+  "status": "OCR_OK",
+  "reason": null,
+  "pages": [
+    {
+      "page": 1,
+      "text": "ADVANCED MIXED PDF - PAGE 1 TEXT\nPatient ID: ADV-006\n\nName: Dang Thi Mixed\n\nDOB: 1988-09-09\n\nGender: Female\n\nClinical history: Diabetes type 2; Hypertension.\nAllergy: Sulfa drug - rash.\n\nCurrent medication: Metformin 500mg twice daily.",
+      "char_count": 235
+    },
+    {
+      "page": 2,
+      "text": "",
+      "char_count": 0
+    }
+  ]
+}

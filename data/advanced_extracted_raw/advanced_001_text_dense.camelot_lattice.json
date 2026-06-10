@@ -1,0 +1,7 @@
+{
+  "tool": "camelot_lattice",
+  "source_pdf": "advanced_001_text_dense.pdf",
+  "status": "CAMELOT_SKIPPED",
+  "reason": "camelot import failed: No module named 'camelot'",
+  "tables": []
+}

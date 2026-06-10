@@ -1,0 +1,10 @@
+{
+  "file_path": "data\\advanced_pdf_samples\\advanced_006_mixed_text_scan.pdf",
+  "pdf_type": "mixed_pdf",
+  "total_pages": 2,
+  "has_text_layer": true,
+  "page_char_counts": [
+    230,
+    0
+  ]
+}

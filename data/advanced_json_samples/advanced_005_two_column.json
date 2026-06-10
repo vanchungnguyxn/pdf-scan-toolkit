@@ -1,0 +1,213 @@
+{
+  "patient": {
+    "patient_id": "ADV-005",
+    "name": "Hoang Van Columns",
+    "dob": "1965-08-30",
+    "gender": "male"
+  },
+  "documents": [
+    {
+      "document_id": "DOC-001",
+      "doc_type": "emr_pdf_page",
+      "created_at": null,
+      "source_pdf": "advanced_005_two_column.pdf",
+      "page": 1,
+      "raw_text": "ADVANCED TWO-COLUMN CLINICAL SUMMARY\nPatient ID: ADV-005\nName: Hoang Van Columns\nDOB: 1965-08-30\nGender: Male\nClinical history:\n- Hypertension since 2017.\n- Chronic kidney disease CKD.\nAllergy: Penicillin - rash.\nCurrent medication:\n- Losartan 50mg once daily.\n- Amlodipine 5mg once daily.\nLaboratory results:\nCreatinine: 170 umol/L, reference 60-110, high.\neGFR: 45 mL/min, reference 90-120, low."
+    }
+  ],
+  "clinical_summary": {
+    "allergies": [
+      {
+        "name": "Allergy",
+        "value": "Penicillin - rash.",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Allergy: Penicillin - rash.",
+          "char_start": 185,
+          "char_end": 212,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      }
+    ],
+    "chronic_diseases": [
+      {
+        "name": "Chronic disease",
+        "value": "hypertension",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "- Hypertension since 2017.",
+          "char_start": 128,
+          "char_end": 154,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      },
+      {
+        "name": "Chronic disease",
+        "value": "chronic kidney disease",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "- Chronic kidney disease CKD.",
+          "char_start": 155,
+          "char_end": 184,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      },
+      {
+        "name": "Chronic disease",
+        "value": "ckd",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "- Chronic kidney disease CKD.",
+          "char_start": 155,
+          "char_end": 184,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      }
+    ],
+    "active_medications": [
+      {
+        "name": "Active medication",
+        "value": "Current medication:",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Current medication:",
+          "char_start": 213,
+          "char_end": 232,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      },
+      {
+        "name": "Active medication",
+        "value": "Losartan 50mg once daily.",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "- Losartan 50mg once daily.",
+          "char_start": 233,
+          "char_end": 260,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      },
+      {
+        "name": "Active medication",
+        "value": "Amlodipine 5mg once daily.",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "- Amlodipine 5mg once daily.",
+          "char_start": 261,
+          "char_end": 289,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      }
+    ],
+    "abnormal_labs": [
+      {
+        "test_name": "Creatinine",
+        "value": "170",
+        "unit": "umol/L",
+        "reference_range": "60-110",
+        "interpretation": "high",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Creatinine: 170 umol/L, reference 60-110, high.",
+          "char_start": 310,
+          "char_end": 357,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      },
+      {
+        "test_name": "eGFR",
+        "value": "45",
+        "unit": "mL/min",
+        "reference_range": "90-120",
+        "interpretation": "low",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "eGFR: 45 mL/min, reference 90-120, low.",
+          "char_start": 358,
+          "char_end": 397,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source_pdf": "advanced_005_two_column.pdf",
+    "parser": "rule_regex_v1",
+    "patient_normalization": {
+      "patient_id": "ADV-005",
+      "name": "Hoang Van Columns",
+      "dob": "1965-08-30",
+      "gender": "male",
+      "age": null,
+      "normalization_confidence": 1.0,
+      "source_spans": {
+        "patient_id": {
+          "page": 1,
+          "text": "Patient ID: ADV-005",
+          "start": 49,
+          "end": 56
+        },
+        "name": {
+          "page": 1,
+          "text": "Name: Hoang Van Columns",
+          "start": 63,
+          "end": 80
+        },
+        "dob": {
+          "page": 1,
+          "text": "DOB: 1965-08-30",
+          "start": 86,
+          "end": 96
+        },
+        "gender": {
+          "page": 1,
+          "text": "Gender: Male",
+          "start": 105,
+          "end": 109
+        }
+      }
+    },
+    "extraction_mode": "rule_based",
+    "extraction_reason": "LLM disabled",
+    "tools": [
+      "PyMuPDF",
+      "pdfplumber",
+      "Camelot",
+      "Tesseract OCR enhanced",
+      "PyMuPDF layout blocks"
+    ],
+    "selected_pages": [
+      {
+        "page": 1,
+        "source_tool": "pymupdf",
+        "char_count": 397
+      }
+    ],
+    "tables_merged": 0
+  }
+}

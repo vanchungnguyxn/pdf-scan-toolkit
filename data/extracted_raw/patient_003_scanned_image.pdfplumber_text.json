@@ -1,0 +1,11 @@
+{
+  "tool": "pdfplumber",
+  "source_pdf": "patient_003_scanned_image.pdf",
+  "pages": [
+    {
+      "page": 1,
+      "text": "",
+      "char_count": 0
+    }
+  ]
+}

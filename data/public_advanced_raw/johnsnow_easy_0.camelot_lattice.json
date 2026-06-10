@@ -1,0 +1,7 @@
+{
+  "tool": "camelot_lattice",
+  "source_pdf": "johnsnow_easy_0.pdf",
+  "status": "CAMELOT_SKIPPED",
+  "reason": "camelot import failed: No module named 'camelot'",
+  "tables": []
+}

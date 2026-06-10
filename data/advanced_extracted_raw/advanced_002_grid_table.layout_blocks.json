@@ -1,0 +1,133 @@
+{
+  "tool": "pymupdf_layout_blocks",
+  "source_pdf": "advanced_002_grid_table.pdf",
+  "pages": [
+    {
+      "page": 1,
+      "blocks": [
+        {
+          "bbox": [
+            134.39,
+            76.74,
+            460.89,
+            123.53
+          ],
+          "text": "ADVANCED TABLE PDF - GRID LAB +\nMEDICATION",
+          "char_count": 42
+        },
+        {
+          "bbox": [
+            78.0,
+            127.25,
+            378.1,
+            200.99
+          ],
+          "text": "Patient ID: ADV-002\nName: Tran Thi Table\nDOB: 1970-01-09\nGender: Female\nClinical history: Chronic kidney disease CKD stage 3; Hypertension.\nAllergy: No known drug allergy recorded.",
+          "char_count": 180
+        },
+        {
+          "bbox": [
+            78.0,
+            221.02,
+            213.35,
+            240.3
+          ],
+          "text": "Current Medications",
+          "char_count": 19
+        },
+        {
+          "bbox": [
+            83.95,
+            248.25,
+            452.46,
+            261.99
+          ],
+          "text": "Medication\nDose\nFrequency\nStatus",
+          "char_count": 32
+        },
+        {
+          "bbox": [
+            83.95,
+            266.25,
+            450.23,
+            279.99
+          ],
+          "text": "Losartan\n50mg\nonce daily\nactive",
+          "char_count": 31
+        },
+        {
+          "bbox": [
+            83.95,
+            284.25,
+            450.23,
+            297.99
+          ],
+          "text": "Atorvastatin\n20mg\nnight\nactive",
+          "char_count": 30
+        },
+        {
+          "bbox": [
+            78.0,
+            323.02,
+            205.58,
+            342.3
+          ],
+          "text": "Laboratory Results",
+          "char_count": 18
+        },
+        {
+          "bbox": [
+            79.7,
+            350.25,
+            478.99,
+            363.99
+          ],
+          "text": "Test\nValue\nUnit\nReference Range\nFlag",
+          "char_count": 36
+        },
+        {
+          "bbox": [
+            79.7,
+            368.25,
+            491.76,
+            381.99
+          ],
+          "text": "Glucose\n5.3\nmmol/L\n3.9-5.6\nNormal",
+          "char_count": 33
+        },
+        {
+          "bbox": [
+            79.7,
+            386.25,
+            480.1,
+            399.99
+          ],
+          "text": "Creatinine\n190\numol/L\n60-110\nHigh",
+          "char_count": 33
+        },
+        {
+          "bbox": [
+            79.7,
+            404.25,
+            477.88,
+            417.99
+          ],
+          "text": "eGFR\n38\nmL/min\n90-120\nLow",
+          "char_count": 25
+        },
+        {
+          "bbox": [
+            79.7,
+            422.25,
+            480.1,
+            435.99
+          ],
+          "text": "HbA1c\n8.5\n%\n4.0-5.6\nHigh",
+          "char_count": 24
+        }
+      ],
+      "block_count": 12,
+      "char_count": 503
+    }
+  ]
+}

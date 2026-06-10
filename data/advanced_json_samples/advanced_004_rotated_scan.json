@@ -1,0 +1,54 @@
+{
+  "patient": {
+    "patient_id": "UNKNOWN",
+    "name": "UNKNOWN",
+    "dob": null,
+    "gender": "unknown"
+  },
+  "documents": [
+    {
+      "document_id": "DOC-001",
+      "doc_type": "emr_pdf_page",
+      "created_at": null,
+      "source_pdf": "advanced_004_rotated_scan.pdf",
+      "page": 1,
+      "raw_text": "somexororrn som oF\n\ncarrie eterna"
+    }
+  ],
+  "clinical_summary": {
+    "allergies": [],
+    "chronic_diseases": [],
+    "active_medications": [],
+    "abnormal_labs": []
+  },
+  "metadata": {
+    "source_pdf": "advanced_004_rotated_scan.pdf",
+    "parser": "rule_regex_v1",
+    "patient_normalization": {
+      "patient_id": "UNKNOWN",
+      "name": "UNKNOWN",
+      "dob": null,
+      "gender": "unknown",
+      "age": null,
+      "normalization_confidence": 0.0,
+      "source_spans": {}
+    },
+    "extraction_mode": "rule_based",
+    "extraction_reason": "LLM disabled",
+    "tools": [
+      "PyMuPDF",
+      "pdfplumber",
+      "Camelot",
+      "Tesseract OCR enhanced",
+      "PyMuPDF layout blocks"
+    ],
+    "selected_pages": [
+      {
+        "page": 1,
+        "source_tool": "tesseract_basic",
+        "char_count": 33
+      }
+    ],
+    "tables_merged": 0
+  }
+}

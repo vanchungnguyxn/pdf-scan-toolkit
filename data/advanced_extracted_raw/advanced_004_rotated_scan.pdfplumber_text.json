@@ -1,0 +1,11 @@
+{
+  "tool": "pdfplumber",
+  "source_pdf": "advanced_004_rotated_scan.pdf",
+  "pages": [
+    {
+      "page": 1,
+      "text": "",
+      "char_count": 0
+    }
+  ]
+}

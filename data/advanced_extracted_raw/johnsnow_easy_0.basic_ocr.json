@@ -1,0 +1,7 @@
+{
+  "tool": "pytesseract",
+  "source_pdf": "johnsnow_easy_0.pdf",
+  "status": "OCR_SKIPPED",
+  "reason": "Selective skip: text layer is sufficient",
+  "pages": []
+}

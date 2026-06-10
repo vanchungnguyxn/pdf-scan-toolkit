@@ -1,0 +1,26 @@
+{
+  "tool": "pymupdf",
+  "source_pdf": "johnsnow_medium_1.pdf",
+  "pages": [
+    {
+      "page": 1,
+      "text": "",
+      "char_count": 0
+    },
+    {
+      "page": 2,
+      "text": "",
+      "char_count": 0
+    },
+    {
+      "page": 3,
+      "text": "",
+      "char_count": 0
+    },
+    {
+      "page": 4,
+      "text": "",
+      "char_count": 0
+    }
+  ]
+}

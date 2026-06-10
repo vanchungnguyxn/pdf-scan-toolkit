@@ -1,0 +1,89 @@
+{
+  "patient": {
+    "patient_id": "ADV-003",
+    "name": "Le Van Scan",
+    "dob": "1981-12-02",
+    "gender": "Male"
+  },
+  "documents": [
+    {
+      "document_id": "DOC-001",
+      "doc_type": "emr_pdf_page",
+      "created_at": null,
+      "source_pdf": "advanced_003_noisy_scan.pdf",
+      "page": 1,
+      "raw_text": "ADVANCED SCANNED PDF - IMAGE ONLY\n\nPatient ID: ADV-003\n\nName: Le Van Scan\n\nDOB: 1981-12-02\n\nGender: Male\n\nClinical history: Asthma since childhood.\n\nAllergy: Aspirin - shortness of breath.\n\nCurrent medication: Insulin 10 Ul before breakfast.\nLab: HbA1c: 8.2 %, reference 4.0-5.6, high."
+    }
+  ],
+  "clinical_summary": {
+    "allergies": [
+      {
+        "name": "Allergy",
+        "value": "Aspirin - shortness of breath.",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Allergy: Aspirin - shortness of breath."
+        }
+      }
+    ],
+    "chronic_diseases": [
+      {
+        "name": "Chronic disease",
+        "value": "asthma",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Clinical history: Asthma since childhood."
+        }
+      }
+    ],
+    "active_medications": [
+      {
+        "name": "Active medication",
+        "value": "Insulin 10 Ul before breakfast.",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Current medication: Insulin 10 Ul before breakfast."
+        }
+      }
+    ],
+    "abnormal_labs": [
+      {
+        "test_name": "HbA1c",
+        "value": "8.2",
+        "unit": "%",
+        "reference_range": "4.0-5.6",
+        "interpretation": "high",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Lab: HbA1c: 8.2 %, reference 4.0-5.6, high."
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source_pdf": "advanced_003_noisy_scan.pdf",
+    "parser": "advanced_rule_regex_v1",
+    "tools": [
+      "PyMuPDF",
+      "pdfplumber",
+      "Camelot",
+      "Tesseract OCR enhanced",
+      "PyMuPDF layout blocks"
+    ],
+    "selected_pages": [
+      {
+        "page": 1,
+        "source_tool": "tesseract_basic",
+        "char_count": 285
+      }
+    ],
+    "tables_merged": 0
+  }
+}

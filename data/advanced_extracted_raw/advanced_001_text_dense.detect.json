@@ -1,0 +1,9 @@
+{
+  "file_path": "data\\advanced_pdf_samples\\advanced_001_text_dense.pdf",
+  "pdf_type": "text_pdf",
+  "total_pages": 1,
+  "has_text_layer": true,
+  "page_char_counts": [
+    552
+  ]
+}

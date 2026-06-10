@@ -1,0 +1,171 @@
+{
+  "patient": {
+    "patient_id": "UNKNOWN",
+    "name": "Elizabeth Williams",
+    "dob": "07/06/1949",
+    "gender": "Female"
+  },
+  "documents": [
+    {
+      "document_id": "DOC-001",
+      "doc_type": "emr_pdf_page",
+      "created_at": null,
+      "source_pdf": "johnsnow_easy_1.pdf",
+      "page": 1,
+      "raw_text": "Healthcare\nRecovery\nTrauma\nCenter\nElizabeth Williams     07/06/1949\nSierra Valley Medical Institute INC\nPatient Summary\nElizabeth Williams, born on 07/06/1949 and aged 56, is a female patient with a history of Type 2 Diabetes Mellitus. Her medical\njourney includes management of peripheral neuropathy associated with her diabetes. Current health status involves ongoing\nmonitoring of blood glucose levels and pain management.\nPatient Demographics\nName: Elizabeth\nWilliams\nDOB: 07/06/1949\nAge: 56\nSex: Female\nSSN: 497-78-2934\nHospital ID:\nHOSP17622343\nPatient Lifestyle\nSmoking Status: Former\nAlcohol Consumption: Rarely\nDiet Preference: Diabetic-friendly\nExercise Habits: Mild\nPatient Vitals\nHeart Rate: 78\nRespiratory Rate: 16\nTemperature Celsius: 36.8\nOxygen Saturation Percent: 97\nBlood Pressure: 130/85 mmHg\nRecorded Date: 15/11/2024\nDoctor Information\nDoctor Name: \nSamantha\nWatson\nDoctor Unique ID: DR37377A\nSierra  Valley Medical Institute INC          (402) 738-5912                22/04/2025"
+    },
+    {
+      "document_id": "DOC-002",
+      "doc_type": "emr_pdf_page",
+      "created_at": null,
+      "source_pdf": "johnsnow_easy_1.pdf",
+      "page": 2,
+      "raw_text": "Healthcare\nRecovery\nTrauma\nCenter\nElizabeth Williams     07/06/1949\nSierra Valley Medical Institute INC\nDoctor Notes\nSubjective Observations: Patient reports continued pain in lower extremities, particularly at night. Reports good adherence to\nmedication regimen and diet.  Patient reports occasionally feeling dizzy.\nAssesment: Patient remains stable with Type 2 Diabetes Mellitus and peripheral neuropathy. Glucose control is within target range,\nbut neuropathy symptoms persist.  Dizziness could be related to medication or blood pressure; further investigation warranted.\nRecommendations: Continue current medication regimen. Monitor blood glucose levels regularly. Start taking blood pressure at\nhome. Consider referral to physical therapy for neuropathy. Rule out medication-related dizziness.\nFollow Up Instruction: Follow-up appointment in 3 months. Schedule ECG and peripheral nerve conduction study. Contact clinic if\ndizziness worsens or new symptoms develop.\nPast Hospital Visits\nDate\nReason\n03/03/2024\nAnnual physical exam\n15/05/2024\nFollow-up for diabetes management\n22/07/2024\nNeuropathy pain assessment\n10/08/2024\nDiabetic foot exam\n05/10/2024\nInfluenza vaccination\n28/10/2024\nGlucose levels control\nCurrent Medications\nMedication Summary\nDosage\nFrequency\nMetformin\n500mg\nTwice daily\nGabapentin\n300mg\nThree times daily\nLisinopril\n10mg\nOnce daily\nAtorvastatin\n20mg\nOnce daily\nMultivitamin\n1 tablet\nOnce daily\nVitamin D\n2000 IU\nOnce daily\nMedical Tests\nSierra  Valley Medical Institute INC          (402) 738-5912                22/04/2025"
+    },
+    {
+      "document_id": "DOC-003",
+      "doc_type": "emr_pdf_page",
+      "created_at": null,
+      "source_pdf": "johnsnow_easy_1.pdf",
+      "page": 3,
+      "raw_text": "Healthcare\nRecovery\nTrauma\nCenter\nElizabeth Williams     07/06/1949\nSierra Valley Medical Institute INC\nMedication Test\nStatus\nOn/Last\nHbA1c\nDone\n08/11/2024\nLipid Panel\nDone\n08/11/2024\nComprehensive Metabolic Panel (CMP)\nDone\n08/11/2024\nUrinalysis\nDone\n08/11/2024\nECG\nPending\n18/11/2024\nPeripheral Nerve Conduction Study\nPending\n22/11/2024\nSierra  Valley Medical Institute INC          (402) 738-5912                22/04/2025"
+    }
+  ],
+  "clinical_summary": {
+    "allergies": [],
+    "chronic_diseases": [
+      {
+        "name": "Type 2 Diabetes Mellitus",
+        "value": "Type 2 Diabetes Mellitus",
+        "status": "unknown",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "is a female patient with a history of Type 2 Diabetes Mellitus.",
+          "char_start": 172,
+          "char_end": 235,
+          "match_type": "exact",
+          "confidence": 1.0
+        }
+      }
+    ],
+    "active_medications": [
+      {
+        "name": "Metformin",
+        "value": "500mg",
+        "status": "Twice daily",
+        "source": {
+          "document_id": "DOC-002",
+          "page": 2,
+          "evidence_text": "Metformin 500mg Twice daily",
+          "char_start": 1266,
+          "char_end": 1303,
+          "match_type": "fuzzy",
+          "confidence": 0.93
+        }
+      },
+      {
+        "name": "Gabapentin",
+        "value": "300mg",
+        "status": "Three times daily",
+        "source": {
+          "document_id": "DOC-002",
+          "page": 2,
+          "evidence_text": "Gabapentin 300mg Three times daily",
+          "char_start": 1296,
+          "char_end": 1340,
+          "match_type": "fuzzy",
+          "confidence": 0.94
+        }
+      },
+      {
+        "name": "Lisinopril",
+        "value": "10mg",
+        "status": "Once daily",
+        "source": {
+          "document_id": "DOC-002",
+          "page": 2,
+          "evidence_text": "Lisinopril 10mg Once daily",
+          "char_start": 1326,
+          "char_end": 1362,
+          "match_type": "fuzzy",
+          "confidence": 0.92
+        }
+      },
+      {
+        "name": "Atorvastatin",
+        "value": "20mg",
+        "status": "Once daily",
+        "source": {
+          "document_id": "DOC-002",
+          "page": 2,
+          "evidence_text": "Atorvastatin 20mg Once daily",
+          "char_start": 1358,
+          "char_end": 1396,
+          "match_type": "fuzzy",
+          "confidence": 0.93
+        }
+      },
+      {
+        "name": "Multivitamin",
+        "value": "1 tablet",
+        "status": "Once daily",
+        "source": {
+          "document_id": "DOC-002",
+          "page": 2,
+          "evidence_text": "Multivitamin 1 tablet Once daily",
+          "char_start": 1384,
+          "char_end": 1426,
+          "match_type": "fuzzy",
+          "confidence": 0.94
+        }
+      },
+      {
+        "name": "Vitamin D",
+        "value": "2000 IU",
+        "status": "Once daily",
+        "source": {
+          "document_id": "DOC-002",
+          "page": 2,
+          "evidence_text": "Vitamin D 2000 IU Once daily",
+          "char_start": 1414,
+          "char_end": 1452,
+          "match_type": "fuzzy",
+          "confidence": 0.93
+        }
+      }
+    ],
+    "abnormal_labs": []
+  },
+  "metadata": {
+    "source_pdf": "johnsnow_easy_1.pdf",
+    "parser": "llm_structured_v1",
+    "extraction_mode": "llm",
+    "extraction_reason": "LLM extraction succeeded",
+    "tools": [
+      "PyMuPDF",
+      "pdfplumber",
+      "Camelot",
+      "Tesseract OCR enhanced",
+      "PyMuPDF layout blocks"
+    ],
+    "selected_pages": [
+      {
+        "page": 1,
+        "source_tool": "pymupdf",
+        "char_count": 1000
+      },
+      {
+        "page": 2,
+        "source_tool": "pymupdf",
+        "char_count": 1553
+      },
+      {
+        "page": 3,
+        "source_tool": "pymupdf",
+        "char_count": 426
+      }
+    ],
+    "tables_merged": 1
+  }
+}

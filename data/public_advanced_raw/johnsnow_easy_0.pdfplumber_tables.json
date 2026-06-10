@@ -1,0 +1,122 @@
+{
+  "tool": "pdfplumber",
+  "source_pdf": "johnsnow_easy_0.pdf",
+  "tables": [
+    {
+      "page": 2,
+      "table_index": 0,
+      "rows": [
+        [
+          "Date",
+          "Reason"
+        ],
+        [
+          "02/08/2024",
+          "Routine Diabetes Check-up"
+        ],
+        [
+          "15/05/2024",
+          "Peripheral Neuropathy Assessment"
+        ],
+        [
+          "22/02/2024",
+          "Flu Symptoms"
+        ],
+        [
+          "10/11/2023",
+          "Annual Physical Exam"
+        ],
+        [
+          "05/08/2023",
+          "Eye Exam"
+        ],
+        [
+          "12/05/2023",
+          "Diabetic Foot Exam"
+        ]
+      ]
+    },
+    {
+      "page": 2,
+      "table_index": 1,
+      "rows": [
+        [
+          "Medication Summary",
+          "Dosage",
+          "Frequency"
+        ],
+        [
+          "Metformin",
+          "500mg",
+          "Twice daily"
+        ],
+        [
+          "Gabapentin",
+          "300mg",
+          "Three times daily"
+        ],
+        [
+          "Atorvastatin",
+          "20mg",
+          "Once daily"
+        ],
+        [
+          "Lisinopril",
+          "10mg",
+          "Once daily"
+        ],
+        [
+          "Vitamin B12",
+          "1000mcg",
+          "Once daily"
+        ],
+        [
+          "Aspirin",
+          "81mg",
+          "Once daily"
+        ]
+      ]
+    },
+    {
+      "page": 3,
+      "table_index": 0,
+      "rows": [
+        [
+          "Medication Test",
+          "Status",
+          "On/Last"
+        ],
+        [
+          "HbA1c",
+          "Done",
+          "08/11/2024"
+        ],
+        [
+          "Lipid Panel",
+          "Done",
+          "08/11/2024"
+        ],
+        [
+          "Comprehensive Metabolic Panel",
+          "Done",
+          "08/11/2024"
+        ],
+        [
+          "Urinalysis",
+          "Done",
+          "08/11/2024"
+        ],
+        [
+          "ECG",
+          "Done",
+          "08/11/2024"
+        ],
+        [
+          "Microalbumin",
+          "Pending",
+          "15/11/2024"
+        ]
+      ]
+    }
+  ]
+}
