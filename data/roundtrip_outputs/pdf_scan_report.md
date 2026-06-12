@@ -4,19 +4,17 @@
 
 | File | Type | Pages | PyMuPDF chars | pdfplumber chars | Tables | OCR | JSON | Citation coverage |
 |---|---|---:|---:|---:|---:|---|---|---:|
-| patient_001_text.pdf | text_pdf | 1 | 450 | 450 | 0 | OCR_OK | PARSED | 100.0% |
-| patient_002_table.pdf | text_pdf | 1 | 492 | 492 | 2 | OCR_OK | PARSED | 100.0% |
-| patient_003_scanned_image.pdf | scanned_pdf | 1 | 0 | 0 | 0 | OCR_OK | PARSED | 100.0% |
-| patient_004_mixed.pdf | mixed_pdf | 2 | 245 | 245 | 0 | OCR_OK | PARSED | 100.0% |
+| syn-001_emr.pdf | text_pdf | 1 | 460 | 460 | 0 | OCR_OK | PARSED | 100.0% |
+| syn-002_emr.pdf | text_pdf | 1 | 416 | 416 | 0 | OCR_OK | PARSED | 100.0% |
+| syn-003_emr.pdf | text_pdf | 1 | 286 | 286 | 0 | OCR_OK | PARSED | 100.0% |
 
 ## Parsed JSON Summary
 
 | File | Patient | Allergies | Chronic | Medications | Abnormal Labs | Validation | Notes |
 |---|---|---:|---:|---:|---:|---|---|
-| patient_001_text.pdf | PT-001 | 1 | 2 | 2 | 2 | PASS | Page-level citation only (no span offsets): Allergy; Page-level citation only (no span offsets): Chronic disease |
-| patient_002_table.pdf | PT-002 | 0 | 3 | 3 | 2 | PASS | Page-level citation only (no span offsets): Chronic disease; Page-level citation only (no span offsets): Chronic disease |
-| patient_003_scanned_image.pdf | PT-003 | 1 | 1 | 1 | 1 | PASS | Page-level citation only (no span offsets): Allergy; Page-level citation only (no span offsets): Chronic disease |
-| patient_004_mixed.pdf | PT-004 | 1 | 1 | 1 | 1 | PASS | Page-level citation only (no span offsets): Allergy; Page-level citation only (no span offsets): Chronic disease |
+| syn-001_emr.pdf | SYN-001 | 1 | 2 | 2 | 2 | PASS | Page-level citation only (no span offsets): Allergy; Page-level citation only (no span offsets): Chronic disease |
+| syn-002_emr.pdf | SYN-002 | 1 | 3 | 2 | 2 | PASS | Page-level citation only (no span offsets): Allergy; Page-level citation only (no span offsets): Chronic disease |
+| syn-003_emr.pdf | SYN-003 | 1 | 1 | 1 | 1 | PASS | Page-level citation only (no span offsets): Allergy; Page-level citation only (no span offsets): Chronic disease |
 
 ## How to interpret
 

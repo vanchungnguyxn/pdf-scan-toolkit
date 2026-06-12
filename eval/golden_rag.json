@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "patient_id": "SYN-001",
+      "question": "Benh nhan SYN-001 co di ung gi?",
+      "required_answer_terms": ["penicillin"],
+      "min_citations": 1
+    },
+    {
+      "patient_id": "SYN-003",
+      "question": "SYN-003 dang dung thuoc nao?",
+      "required_answer_terms": ["insulin"],
+      "min_citations": 1
+    },
+    {
+      "patient_id": "SYN-002",
+      "question": "Chi so xet nghiem bat thuong cua SYN-002 la gi?",
+      "required_answer_terms": ["creatinine", "egfr"],
+      "min_citations": 1
+    }
+  ]
+}

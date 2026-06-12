@@ -1,0 +1,40 @@
+{
+  "pdf_count": 3,
+  "json_count": 3,
+  "report_path": "data\\roundtrip_outputs\\pdf_scan_report.md",
+  "rows": [
+    {
+      "file": "syn-001_emr.pdf",
+      "detected_type": "text_pdf",
+      "pages": 1,
+      "pymupdf_chars": 460,
+      "pdfplumber_chars": 460,
+      "tables_found": 0,
+      "ocr_status": "OCR_OK",
+      "json_status": "PARSED",
+      "citation_coverage": "100.0%"
+    },
+    {
+      "file": "syn-002_emr.pdf",
+      "detected_type": "text_pdf",
+      "pages": 1,
+      "pymupdf_chars": 416,
+      "pdfplumber_chars": 416,
+      "tables_found": 0,
+      "ocr_status": "OCR_OK",
+      "json_status": "PARSED",
+      "citation_coverage": "100.0%"
+    },
+    {
+      "file": "syn-003_emr.pdf",
+      "detected_type": "text_pdf",
+      "pages": 1,
+      "pymupdf_chars": 286,
+      "pdfplumber_chars": 286,
+      "tables_found": 0,
+      "ocr_status": "OCR_OK",
+      "json_status": "PARSED",
+      "citation_coverage": "100.0%"
+    }
+  ]
+}

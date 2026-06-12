@@ -1,0 +1,11 @@
+{
+  "tool": "pymupdf",
+  "source_pdf": "syn-001_emr.pdf",
+  "pages": [
+    {
+      "page": 1,
+      "text": "SYNTHETIC CLINICAL NOTE\nMa benh nhan: SYN-001\nHo ten: Nguyen Van Synthetic A\nNgay sinh: 1970-01-15\nGioi tinh: Nam\nTien su benh:\n- Tang huyet ap tu nam 2019, dang dieu tri on dinh.\n- Dai thao duong type 2 tu nam 2020.\nDi ung:\n- Di ung Penicillin, phan ung noi man do.\nThuoc dang dung:\n- Metformin 500mg, uong 2 lan/ngay.\n- Amlodipine 5mg, uong 1 lan/ngay.\nXet nghiem:\nGlucose: 9.8 mmol/L, tham chieu 3.9-5.6, cao.\nCreatinine: 150 umol/L, tham chieu 60-110, cao.",
+      "char_count": 460
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "patient": {
-    "patient_id": "PT-002",
-    "name": "Tran Thi B",
-    "dob": "1975-07-20",
+    "patient_id": "SYN-002",
+    "name": "Tran Thi Synthetic B",
+    "dob": "1978-06-22",
     "gender": "female"
   },
   "documents": [
@@ -10,13 +10,28 @@
       "document_id": "DOC-001",
       "doc_type": "emr_pdf_page",
       "created_at": null,
-      "source_pdf": "patient_002_table.pdf",
+      "source_pdf": "syn-002_emr.pdf",
       "page": 1,
-      "raw_text": "LAB AND MEDICATION PDF - TABLE LAYOUT\nMa benh nhan: PT-002\nHo ten: Tran Thi B\nNgay sinh: 1975-07-20\nGioi tinh: Nu\nTien su benh: Tang huyet ap; Suy than man tinh CKD stage 3.\nDi ung: Khong ghi nhan di ung thuoc trong ho so nay.\nThuoc dang dung\nMedication\nDose\nFrequency\nStatus\nLosartan\n50mg\n1 lan/ngay\nactive\nAtorvastatin\n20mg\n1 lan toi\nactive\nKet qua xet nghiem\nTest\nValue\nUnit\nReference Range\nFlag\nGlucose\n5.2\nmmol/L\n3.9-5.6\nNormal\nCreatinine\n180\numol/L\n60-110\nHigh\neGFR\n42\nmL/min\n90-120\nLow"
+      "raw_text": "SYNTHETIC CLINICAL NOTE\nMa benh nhan: SYN-002\nHo ten: Tran Thi Synthetic B\nNgay sinh: 1978-06-22\nGioi tinh: Nu\nTien su benh:\n- Tang huyet ap tu nam 2018.\n- Suy than man tinh CKD stage 3.\nDi ung:\n- Di ung Ibuprofen, noi me day.\nThuoc dang dung:\n- Losartan 50mg, uong 1 lan/ngay.\n- Atorvastatin 20mg, uong 1 lan toi.\nXet nghiem:\nCreatinine: 180 umol/L, tham chieu 60-110, cao.\neGFR: 42 mL/min, tham chieu 90-120, thap."
     }
   ],
   "clinical_summary": {
-    "allergies": [],
+    "allergies": [
+      {
+        "name": "Allergy",
+        "value": "Ibuprofen, noi me day.",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "- Di ung Ibuprofen, noi me day.",
+          "char_start": null,
+          "char_end": null,
+          "match_type": null,
+          "confidence": null
+        }
+      }
+    ],
     "chronic_diseases": [
       {
         "name": "Chronic disease",
@@ -25,7 +40,7 @@
         "source": {
           "document_id": "DOC-001",
           "page": 1,
-          "evidence_text": "Tien su benh: Tang huyet ap; Suy than man tinh CKD stage 3.",
+          "evidence_text": "- Tang huyet ap tu nam 2018.",
           "char_start": null,
           "char_end": null,
           "match_type": null,
@@ -39,7 +54,7 @@
         "source": {
           "document_id": "DOC-001",
           "page": 1,
-          "evidence_text": "Tien su benh: Tang huyet ap; Suy than man tinh CKD stage 3.",
+          "evidence_text": "- Suy than man tinh CKD stage 3.",
           "char_start": null,
           "char_end": null,
           "match_type": null,
@@ -53,7 +68,7 @@
         "source": {
           "document_id": "DOC-001",
           "page": 1,
-          "evidence_text": "Tien su benh: Tang huyet ap; Suy than man tinh CKD stage 3.",
+          "evidence_text": "- Suy than man tinh CKD stage 3.",
           "char_start": null,
           "char_end": null,
           "match_type": null,
@@ -64,12 +79,12 @@
     "active_medications": [
       {
         "name": "Active medication",
-        "value": "LAB AND MEDICATION PDF - TABLE LAYOUT",
+        "value": "Losartan 50mg, uong 1 lan/ngay.",
         "status": "active",
         "source": {
           "document_id": "DOC-001",
           "page": 1,
-          "evidence_text": "LAB AND MEDICATION PDF - TABLE LAYOUT",
+          "evidence_text": "- Losartan 50mg, uong 1 lan/ngay.",
           "char_start": null,
           "char_end": null,
           "match_type": null,
@@ -78,26 +93,12 @@
       },
       {
         "name": "Active medication",
-        "value": "Losartan",
+        "value": "Atorvastatin 20mg, uong 1 lan toi.",
         "status": "active",
         "source": {
           "document_id": "DOC-001",
           "page": 1,
-          "evidence_text": "Losartan",
-          "char_start": null,
-          "char_end": null,
-          "match_type": null,
-          "confidence": null
-        }
-      },
-      {
-        "name": "Active medication",
-        "value": "Atorvastatin",
-        "status": "active",
-        "source": {
-          "document_id": "DOC-001",
-          "page": 1,
-          "evidence_text": "Atorvastatin",
+          "evidence_text": "- Atorvastatin 20mg, uong 1 lan toi.",
           "char_start": null,
           "char_end": null,
           "match_type": null,
@@ -115,7 +116,7 @@
         "source": {
           "document_id": "DOC-001",
           "page": 1,
-          "evidence_text": "Creatinine | 180 | umol/L | 60-110 | High",
+          "evidence_text": "Creatinine: 180 umol/L, tham chieu 60-110, cao.",
           "char_start": null,
           "char_end": null,
           "match_type": null,
@@ -131,7 +132,7 @@
         "source": {
           "document_id": "DOC-001",
           "page": 1,
-          "evidence_text": "eGFR | 42 | mL/min | 90-120 | Low",
+          "evidence_text": "eGFR: 42 mL/min, tham chieu 90-120, thap.",
           "char_start": null,
           "char_end": null,
           "match_type": null,
@@ -141,39 +142,39 @@
     ]
   },
   "metadata": {
-    "source_pdf": "patient_002_table.pdf",
+    "source_pdf": "syn-002_emr.pdf",
     "parser": "rule_regex_v1",
     "patient_normalization": {
-      "patient_id": "PT-002",
-      "name": "Tran Thi B",
-      "dob": "1975-07-20",
+      "patient_id": "SYN-002",
+      "name": "Tran Thi Synthetic B",
+      "dob": "1978-06-22",
       "gender": "female",
       "age": null,
       "normalization_confidence": 1.0,
       "source_spans": {
         "patient_id": {
           "page": 1,
-          "text": "Ma benh nhan: PT-002",
-          "start": 52,
-          "end": 58
+          "text": "Ma benh nhan: SYN-002",
+          "start": 38,
+          "end": 45
         },
         "name": {
           "page": 1,
-          "text": "Ho ten: Tran Thi B",
-          "start": 67,
-          "end": 77
+          "text": "Ho ten: Tran Thi Synthetic B",
+          "start": 54,
+          "end": 74
         },
         "dob": {
           "page": 1,
-          "text": "Ngay sinh: 1975-07-20",
-          "start": 89,
-          "end": 99
+          "text": "Ngay sinh: 1978-06-22",
+          "start": 86,
+          "end": 96
         },
         "gender": {
           "page": 1,
           "text": "Gioi tinh: Nu",
-          "start": 111,
-          "end": 113
+          "start": 108,
+          "end": 110
         }
       }
     }

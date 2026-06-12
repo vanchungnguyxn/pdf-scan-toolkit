@@ -1,8 +1,8 @@
 {
   "patient": {
-    "patient_id": "PT-001",
-    "name": "Nguyen Van A",
-    "dob": "1968-03-12",
+    "patient_id": "SYN-001",
+    "name": "Nguyen Van Synthetic A",
+    "dob": "1970-01-15",
     "gender": "male"
   },
   "documents": [
@@ -10,9 +10,9 @@
       "document_id": "DOC-001",
       "doc_type": "emr_pdf_page",
       "created_at": null,
-      "source_pdf": "patient_001_text.pdf",
+      "source_pdf": "syn-001_emr.pdf",
       "page": 1,
-      "raw_text": "CLINICAL NOTE - TEXT PDF\nMa benh nhan: PT-001\nHo ten: Nguyen Van A\nNgay sinh: 1968-03-12\nGioi tinh: Nam\nTien su benh:\n- Tang huyet ap tu nam 2020, dang dieu tri on dinh.\n- Dai thao duong type 2 tu nam 2021.\nDi ung:\n- Di ung Penicillin, phan ung noi man do.\nThuoc dang dung:\n- Metformin 500mg, uong 2 lan/ngay.\n- Amlodipine 5mg, uong 1 lan/ngay.\nXet nghiem:\nGlucose: 9.8 mmol/L, tham chieu 3.9-5.6, cao.\nCreatinine: 150 umol/L, tham chieu 60-110, cao."
+      "raw_text": "SYNTHETIC CLINICAL NOTE\nMa benh nhan: SYN-001\nHo ten: Nguyen Van Synthetic A\nNgay sinh: 1970-01-15\nGioi tinh: Nam\nTien su benh:\n- Tang huyet ap tu nam 2019, dang dieu tri on dinh.\n- Dai thao duong type 2 tu nam 2020.\nDi ung:\n- Di ung Penicillin, phan ung noi man do.\nThuoc dang dung:\n- Metformin 500mg, uong 2 lan/ngay.\n- Amlodipine 5mg, uong 1 lan/ngay.\nXet nghiem:\nGlucose: 9.8 mmol/L, tham chieu 3.9-5.6, cao.\nCreatinine: 150 umol/L, tham chieu 60-110, cao."
     }
   ],
   "clinical_summary": {
@@ -40,7 +40,7 @@
         "source": {
           "document_id": "DOC-001",
           "page": 1,
-          "evidence_text": "- Tang huyet ap tu nam 2020, dang dieu tri on dinh.",
+          "evidence_text": "- Tang huyet ap tu nam 2019, dang dieu tri on dinh.",
           "char_start": null,
           "char_end": null,
           "match_type": null,
@@ -54,7 +54,7 @@
         "source": {
           "document_id": "DOC-001",
           "page": 1,
-          "evidence_text": "- Dai thao duong type 2 tu nam 2021.",
+          "evidence_text": "- Dai thao duong type 2 tu nam 2020.",
           "char_start": null,
           "char_end": null,
           "match_type": null,
@@ -128,39 +128,39 @@
     ]
   },
   "metadata": {
-    "source_pdf": "patient_001_text.pdf",
+    "source_pdf": "syn-001_emr.pdf",
     "parser": "rule_regex_v1",
     "patient_normalization": {
-      "patient_id": "PT-001",
-      "name": "Nguyen Van A",
-      "dob": "1968-03-12",
+      "patient_id": "SYN-001",
+      "name": "Nguyen Van Synthetic A",
+      "dob": "1970-01-15",
       "gender": "male",
       "age": null,
       "normalization_confidence": 1.0,
       "source_spans": {
         "patient_id": {
           "page": 1,
-          "text": "Ma benh nhan: PT-001",
-          "start": 39,
+          "text": "Ma benh nhan: SYN-001",
+          "start": 38,
           "end": 45
         },
         "name": {
           "page": 1,
-          "text": "Ho ten: Nguyen Van A",
+          "text": "Ho ten: Nguyen Van Synthetic A",
           "start": 54,
-          "end": 66
+          "end": 76
         },
         "dob": {
           "page": 1,
-          "text": "Ngay sinh: 1968-03-12",
-          "start": 78,
-          "end": 88
+          "text": "Ngay sinh: 1970-01-15",
+          "start": 88,
+          "end": 98
         },
         "gender": {
           "page": 1,
           "text": "Gioi tinh: Nam",
-          "start": 100,
-          "end": 103
+          "start": 110,
+          "end": 113
         }
       }
     }

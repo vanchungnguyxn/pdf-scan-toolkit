@@ -1,9 +1,9 @@
 {
-  "file_path": "data\\pdf_samples\\patient_001_text.pdf",
+  "file_path": "data\\synthetic_pdf_samples\\syn-001_emr.pdf",
   "pdf_type": "text_pdf",
   "total_pages": 1,
   "has_text_layer": true,
   "page_char_counts": [
-    450
+    460
   ]
 }

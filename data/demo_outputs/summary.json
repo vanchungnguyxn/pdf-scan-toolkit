@@ -1,7 +1,7 @@
 {
   "pdf_count": 4,
   "json_count": 4,
-  "report_path": "data/demo_outputs/pdf_scan_report.md",
+  "report_path": "data\\demo_outputs\\pdf_scan_report.md",
   "rows": [
     {
       "file": "patient_001_text.pdf",

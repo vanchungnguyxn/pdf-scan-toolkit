@@ -1,8 +1,8 @@
 {
   "patient": {
-    "patient_id": "PT-003",
-    "name": "Le Van C",
-    "dob": "1980-11-02",
+    "patient_id": "SYN-003",
+    "name": "Le Van Synthetic C",
+    "dob": "1985-11-08",
     "gender": "male"
   },
   "documents": [
@@ -10,9 +10,9 @@
       "document_id": "DOC-001",
       "doc_type": "emr_pdf_page",
       "created_at": null,
-      "source_pdf": "patient_003_scanned_image.pdf",
+      "source_pdf": "syn-003_emr.pdf",
       "page": 1,
-      "raw_text": "SCANNED CLINICAL NOTE - IMAGE ONLY PDF\n\nMa benh nhan: PT-003\n\nHo ten: Le Van C\n\nNgay sinh: 1980-11-02\n\nGioi tinh: Nam\n\nTien su benh: Hen phe quan.\n\nDi ung: Di ung Aspirin, kho tho.\n\nThuoc dang dung: Insulin 10 Ul truoc bua sang.\n\nXet nghiem: HbAIc: 8.2 %, tham chieu 4.0-5.6, cao."
+      "raw_text": "SYNTHETIC CLINICAL NOTE\nMa benh nhan: SYN-003\nHo ten: Le Van Synthetic C\nNgay sinh: 1985-11-08\nGioi tinh: Nam\nTien su benh:\n- Hen phe quan tu nam 2015.\nDi ung:\n- Di ung Aspirin, kho tho.\nThuoc dang dung:\n- Insulin 10 UI truoc bua sang.\nXet nghiem:\nHbA1c: 8.2 %, tham chieu 4.0-5.6, cao."
     }
   ],
   "clinical_summary": {
@@ -24,7 +24,7 @@
         "source": {
           "document_id": "DOC-001",
           "page": 1,
-          "evidence_text": "Di ung: Di ung Aspirin, kho tho.",
+          "evidence_text": "- Di ung Aspirin, kho tho.",
           "char_start": null,
           "char_end": null,
           "match_type": null,
@@ -40,7 +40,7 @@
         "source": {
           "document_id": "DOC-001",
           "page": 1,
-          "evidence_text": "Tien su benh: Hen phe quan.",
+          "evidence_text": "- Hen phe quan tu nam 2015.",
           "char_start": null,
           "char_end": null,
           "match_type": null,
@@ -51,12 +51,12 @@
     "active_medications": [
       {
         "name": "Active medication",
-        "value": "Insulin 10 Ul truoc bua sang.",
+        "value": "Insulin 10 UI truoc bua sang.",
         "status": "active",
         "source": {
           "document_id": "DOC-001",
           "page": 1,
-          "evidence_text": "Thuoc dang dung: Insulin 10 Ul truoc bua sang.",
+          "evidence_text": "- Insulin 10 UI truoc bua sang.",
           "char_start": null,
           "char_end": null,
           "match_type": null,
@@ -66,7 +66,7 @@
     ],
     "abnormal_labs": [
       {
-        "test_name": "HbAIc",
+        "test_name": "HbA1c",
         "value": "8.2",
         "unit": "%",
         "reference_range": "4.0-5.6",
@@ -74,7 +74,7 @@
         "source": {
           "document_id": "DOC-001",
           "page": 1,
-          "evidence_text": "Xet nghiem: HbAIc: 8.2 %, tham chieu 4.0-5.6, cao.",
+          "evidence_text": "HbA1c: 8.2 %, tham chieu 4.0-5.6, cao.",
           "char_start": null,
           "char_end": null,
           "match_type": null,
@@ -84,39 +84,39 @@
     ]
   },
   "metadata": {
-    "source_pdf": "patient_003_scanned_image.pdf",
+    "source_pdf": "syn-003_emr.pdf",
     "parser": "rule_regex_v1",
     "patient_normalization": {
-      "patient_id": "PT-003",
-      "name": "Le Van C",
-      "dob": "1980-11-02",
+      "patient_id": "SYN-003",
+      "name": "Le Van Synthetic C",
+      "dob": "1985-11-08",
       "gender": "male",
       "age": null,
       "normalization_confidence": 1.0,
       "source_spans": {
         "patient_id": {
           "page": 1,
-          "text": "Ma benh nhan: PT-003",
-          "start": 54,
-          "end": 60
+          "text": "Ma benh nhan: SYN-003",
+          "start": 38,
+          "end": 45
         },
         "name": {
           "page": 1,
-          "text": "Ho ten: Le Van C",
-          "start": 70,
-          "end": 78
+          "text": "Ho ten: Le Van Synthetic C",
+          "start": 54,
+          "end": 72
         },
         "dob": {
           "page": 1,
-          "text": "Ngay sinh: 1980-11-02",
-          "start": 91,
-          "end": 101
+          "text": "Ngay sinh: 1985-11-08",
+          "start": 84,
+          "end": 94
         },
         "gender": {
           "page": 1,
           "text": "Gioi tinh: Nam",
-          "start": 114,
-          "end": 117
+          "start": 106,
+          "end": 109
         }
       }
     }

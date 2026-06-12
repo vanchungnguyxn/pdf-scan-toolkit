@@ -1,0 +1,13 @@
+{
+  "tool": "pytesseract",
+  "source_pdf": "syn-002_emr.pdf",
+  "status": "OCR_OK",
+  "reason": null,
+  "pages": [
+    {
+      "page": 1,
+      "text": "SYNTHETIC CLINICAL NOTE\nMa benh nhan: SYN-002\n\nHo ten: Tran Thi Synthetic B\nNgay sinh: 1978-06-22\n\nGioi tinh: Nu\n\nTien su benh:\n- Tang huyet ap tu nam 2018.\n- Suy than man tinh CKD stage 3.\n\nDi ung:\n\n- Di ung Ibuprofen, noi me day.\n\nThuoc dang dung:\n- Losartan 50mg, uong 1 lan/ngay.\n\n- Atorvastatin 20mg, uong 1 lan toi.\n\nXet nghiem:\nCreatinine: 180 umol/L, tham chieu 60-110, cao.\n\neGFR: 42 mL/min, tham chieu 90-120, thap.",
+      "char_count": 425
+    }
+  ]
+}

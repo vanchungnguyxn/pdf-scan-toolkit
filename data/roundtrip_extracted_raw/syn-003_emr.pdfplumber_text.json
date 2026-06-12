@@ -1,0 +1,11 @@
+{
+  "tool": "pdfplumber",
+  "source_pdf": "syn-003_emr.pdf",
+  "pages": [
+    {
+      "page": 1,
+      "text": "SYNTHETIC CLINICAL NOTE\nMa benh nhan: SYN-003\nHo ten: Le Van Synthetic C\nNgay sinh: 1985-11-08\nGioi tinh: Nam\nTien su benh:\n- Hen phe quan tu nam 2015.\nDi ung:\n- Di ung Aspirin, kho tho.\nThuoc dang dung:\n- Insulin 10 UI truoc bua sang.\nXet nghiem:\nHbA1c: 8.2 %, tham chieu 4.0-5.6, cao.",
+      "char_count": 286
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "file_path": "data/pdf_samples/patient_003_scanned_image.pdf",
+  "file_path": "data\\pdf_samples\\patient_003_scanned_image.pdf",
   "pdf_type": "scanned_pdf",
   "total_pages": 1,
   "has_text_layer": false,

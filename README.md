@@ -11,6 +11,59 @@ Project hỗ trợ hai mức pipeline:
 
 ---
 
+## Hướng dẫn chạy (ưu tiên — 3 phần chính)
+
+Chạy theo thứ tự sau trong thư mục project (offline, không bắt buộc LLM/API):
+
+### 1. Setup
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+### 2. PDF → JSON
+
+```bash
+python scripts/run_demo.py --input data/pdf_samples --output data/json_samples
+```
+
+Output: `data/json_samples/`, `data/extracted_raw/`, `data/demo_outputs/`
+
+### 3. Closed-loop (JSON → PDF → JSON)
+
+```bash
+python scripts/run_closed_loop_demo.py --count 3
+```
+
+Output: `data/synthetic_json_samples/`, `data/synthetic_pdf_samples/`, `data/roundtrip_json_samples/`, `data/roundtrip_outputs/closed_loop_summary.json`
+
+### 4. RAG query (baseline BM25/keyword)
+
+```bash
+python scripts/run_rag_query.py --input data/roundtrip_json_samples --patient-id SYN-001 --question "Benh nhan SYN-001 co di ung gi?"
+python scripts/run_rag_query.py --input data/roundtrip_json_samples --patient-id SYN-003 --question "SYN-003 dang dung thuoc nao?"
+python scripts/run_rag_query.py --input data/roundtrip_json_samples --patient-id SYN-002 --question "Chi so xet nghiem bat thuong cua SYN-002 la gi?"
+```
+
+### 5. Evaluation
+
+```bash
+python scripts/evaluate_extraction.py
+python scripts/evaluate_rag.py
+```
+
+Báo cáo: `eval/results/extraction_eval.json`, `eval/results/rag_eval.json`, `eval/results/report.md`
+
+### 6. Test
+
+```bash
+python -m pytest tests -q
+```
+
+---
+
 ## Mục tiêu
 
 ```text
@@ -84,10 +137,20 @@ pdf-scan-toolkit-demo-advanced/
 ├── scripts/
 │   ├── run_demo.py               # basic pipeline entrypoint
 │   ├── run_advanced_compare.py   # advanced pipeline entrypoint
+│   ├── run_closed_loop_demo.py   # JSON → PDF → JSON closed-loop
+│   ├── run_rag_query.py          # baseline RAG query CLI
+│   ├── generate_synthetic_records.py
+│   ├── convert_json_to_pdf.py
+│   ├── evaluate_extraction.py
+│   ├── evaluate_rag.py
 │   ├── run_public_pdf_compare.py # basic + public PDFs
 │   ├── create_sample_pdfs.py
 │   ├── create_advanced_sample_pdfs.py
 │   └── download_public_pdfs.py
+├── eval/
+│   ├── golden_extraction.json
+│   ├── golden_rag.json
+│   └── results/
 ├── src/pdf_scan_toolkit/
 │   ├── detect_pdf_type.py
 │   ├── extract_text_pymupdf.py
@@ -104,9 +167,17 @@ pdf-scan-toolkit-demo-advanced/
 │   ├── schemas.py                # Pydantic models
 │   ├── reporting.py
 │   ├── run_pdf_scan_demo.py
-│   └── run_advanced_compare.py
+│   ├── run_advanced_compare.py
+│   ├── synthesize_records.py     # sinh EMR JSON synthetic
+│   ├── json_to_pdf.py            # EMR JSON → text-layer PDF
+│   ├── run_closed_loop_demo.py
+│   ├── rag_pipeline.py           # baseline RAG (BM25)
+│   ├── evaluate_extraction.py
+│   └── evaluate_rag.py
 ├── tests/
 │   ├── test_pdf_scan_demo.py
+│   ├── test_closed_loop.py
+│   ├── test_rag_pipeline.py
 │   ├── test_patient_normalizer.py
 │   ├── test_span_citation.py
 │   └── test_llm_fallback.py
@@ -122,7 +193,12 @@ pdf-scan-toolkit-demo-advanced/
     ├── public_pdf_samples/       # John Snow Labs synthetic PDFs
     ├── public_json_samples/
     ├── public_advanced_raw/
-    └── public_advanced_outputs/
+    ├── public_advanced_outputs/
+    ├── synthetic_json_samples/   # EMR JSON synthetic (closed-loop)
+    ├── synthetic_pdf_samples/
+    ├── roundtrip_json_samples/
+    ├── roundtrip_extracted_raw/
+    └── roundtrip_outputs/
 ```
 
 ---
@@ -231,7 +307,34 @@ data/demo_outputs/         report so sánh tool
 
 Report: `data/demo_outputs/pdf_scan_report.md`
 
-### 2. Advanced demo
+### 2. Closed-loop demo (JSON → PDF → JSON)
+
+```bash
+python scripts/run_closed_loop_demo.py --count 3
+```
+
+Luồng:
+
+```text
+data/json_samples/*.json (template)
+  → data/synthetic_json_samples/syn-00N_emr.json
+  → data/synthetic_pdf_samples/syn-00N_emr.pdf   (reportlab, text layer)
+  → data/roundtrip_json_samples/syn-00N_emr.json
+  → data/roundtrip_outputs/closed_loop_summary.json
+```
+
+### 3. RAG baseline query
+
+```bash
+python scripts/run_rag_query.py \
+  --input data/roundtrip_json_samples \
+  --patient-id SYN-001 \
+  --question "Benh nhan SYN-001 co di ung gi?"
+```
+
+Trả về JSON: `question`, `patient_id`, `answer`, `citations` (document_id, page, evidence_text), `retrieved` chunks.
+
+### 4. Advanced demo
 
 ```bash
 python scripts/run_advanced_compare.py \
@@ -636,25 +739,26 @@ pytest -q
 ## Quick start (tóm tắt)
 
 ```bash
-# 1. Cài đặt
-python -m venv .venv && .\.venv\Scripts\activate   # Windows
-pip install -r requirements-advanced.txt
+# 1. Setup
+python -m venv .venv
+.\.venv\Scripts\activate          # Windows
+pip install -r requirements.txt
 
-# 2. Chạy advanced demo
-python scripts/run_advanced_compare.py
+# 2. PDF → JSON
+python scripts/run_demo.py --input data/pdf_samples --output data/json_samples
 
-# 3. Chạy trên public PDFs
-python scripts/download_public_pdfs.py --count 2
-python scripts/run_advanced_compare.py \
-  --input data/public_pdf_samples \
-  --output data/public_json_samples \
-  --raw data/public_advanced_raw \
-  --report data/public_advanced_outputs
+# 3. Closed-loop
+python scripts/run_closed_loop_demo.py --count 3
 
-# 4. (Tùy chọn) Bật LLM
-copy .env.example .env    # sửa API key
-python scripts/run_advanced_compare.py --input data/public_pdf_samples --output data/public_json_samples --use-llm
+# 4. RAG query
+python scripts/run_rag_query.py --input data/roundtrip_json_samples --patient-id SYN-001 --question "Benh nhan SYN-001 co di ung gi?"
 
-# 5. Test
-pytest tests -v
+# 5. Evaluation
+python scripts/evaluate_extraction.py
+python scripts/evaluate_rag.py
+
+# 6. Test
+python -m pytest tests -q
 ```
+
+Xem thêm advanced demo: `python scripts/run_advanced_compare.py`

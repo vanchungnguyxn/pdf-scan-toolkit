@@ -1,0 +1,44 @@
+{
+  "metric": "rag_pass_rate",
+  "passed": 3,
+  "total": 3,
+  "pass_rate": 100.0,
+  "results": [
+    {
+      "patient_id": "SYN-001",
+      "question": "Benh nhan SYN-001 co di ung gi?",
+      "answer": "Benh nhan SYN-001 co di ung: Penicillin, phan ung noi man do.",
+      "checks": {
+        "required_terms": true,
+        "has_citations": true,
+        "citation_fields": true
+      },
+      "status": "PASS",
+      "citations_count": 3
+    },
+    {
+      "patient_id": "SYN-003",
+      "question": "SYN-003 dang dung thuoc nao?",
+      "answer": "Benh nhan SYN-003 dang dung: Insulin 10 UI truoc bua sang.",
+      "checks": {
+        "required_terms": true,
+        "has_citations": true,
+        "citation_fields": true
+      },
+      "status": "PASS",
+      "citations_count": 2
+    },
+    {
+      "patient_id": "SYN-002",
+      "question": "Chi so xet nghiem bat thuong cua SYN-002 la gi?",
+      "answer": "Chi so xet nghiem bat thuong cua SYN-002: Creatinine=180 (high); eGFR=42 (low)",
+      "checks": {
+        "required_terms": true,
+        "has_citations": true,
+        "citation_fields": true
+      },
+      "status": "PASS",
+      "citations_count": 3
+    }
+  ]
+}

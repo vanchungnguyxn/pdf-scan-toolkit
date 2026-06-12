@@ -1,0 +1,98 @@
+{
+  "synthetic_count": 3,
+  "pdf_count": 3,
+  "roundtrip_json_count": 3,
+  "comparisons": [
+    {
+      "patient_id": "SYN-001",
+      "checks": {
+        "patient_id_match": true,
+        "name_match": true,
+        "allergy_count_ok": true,
+        "medication_count_ok": true,
+        "abnormal_lab_count_ok": true,
+        "medication_overlap": true,
+        "allergy_overlap": true
+      },
+      "passed": 7,
+      "total": 7,
+      "status": "PASS",
+      "file": "syn-001_emr.json"
+    },
+    {
+      "patient_id": "SYN-002",
+      "checks": {
+        "patient_id_match": true,
+        "name_match": true,
+        "allergy_count_ok": true,
+        "medication_count_ok": true,
+        "abnormal_lab_count_ok": true,
+        "medication_overlap": true,
+        "allergy_overlap": true
+      },
+      "passed": 7,
+      "total": 7,
+      "status": "PASS",
+      "file": "syn-002_emr.json"
+    },
+    {
+      "patient_id": "SYN-003",
+      "checks": {
+        "patient_id_match": true,
+        "name_match": true,
+        "allergy_count_ok": true,
+        "medication_count_ok": true,
+        "abnormal_lab_count_ok": true,
+        "medication_overlap": true,
+        "allergy_overlap": true
+      },
+      "passed": 7,
+      "total": 7,
+      "status": "PASS",
+      "file": "syn-003_emr.json"
+    }
+  ],
+  "pass_count": 3,
+  "total_count": 3,
+  "report_path": "data\\roundtrip_outputs\\pdf_scan_report.md",
+  "demo_summary": {
+    "pdf_count": 3,
+    "json_count": 3,
+    "report_path": "data\\roundtrip_outputs\\pdf_scan_report.md",
+    "rows": [
+      {
+        "file": "syn-001_emr.pdf",
+        "detected_type": "text_pdf",
+        "pages": 1,
+        "pymupdf_chars": 460,
+        "pdfplumber_chars": 460,
+        "tables_found": 0,
+        "ocr_status": "OCR_OK",
+        "json_status": "PARSED",
+        "citation_coverage": "100.0%"
+      },
+      {
+        "file": "syn-002_emr.pdf",
+        "detected_type": "text_pdf",
+        "pages": 1,
+        "pymupdf_chars": 416,
+        "pdfplumber_chars": 416,
+        "tables_found": 0,
+        "ocr_status": "OCR_OK",
+        "json_status": "PARSED",
+        "citation_coverage": "100.0%"
+      },
+      {
+        "file": "syn-003_emr.pdf",
+        "detected_type": "text_pdf",
+        "pages": 1,
+        "pymupdf_chars": 286,
+        "pdfplumber_chars": 286,
+        "tables_found": 0,
+        "ocr_status": "OCR_OK",
+        "json_status": "PARSED",
+        "citation_coverage": "100.0%"
+      }
+    ]
+  }
+}

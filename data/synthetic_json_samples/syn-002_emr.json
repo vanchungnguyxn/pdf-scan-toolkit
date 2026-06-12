@@ -1,0 +1,135 @@
+{
+  "patient": {
+    "patient_id": "SYN-002",
+    "name": "Tran Thi Synthetic B",
+    "dob": "1978-06-22",
+    "gender": "Nu"
+  },
+  "documents": [
+    {
+      "document_id": "DOC-001",
+      "doc_type": "emr_pdf_page",
+      "created_at": null,
+      "source_pdf": "syn-002_emr.pdf",
+      "page": 1,
+      "raw_text": "SYNTHETIC CLINICAL NOTE\nMa benh nhan: SYN-002\nHo ten: Tran Thi Synthetic B\nNgay sinh: 1978-06-22\nGioi tinh: Nu\n\nTien su benh:\n- Tang huyet ap tu nam 2018.\n- Suy than man tinh CKD stage 3.\n\nDi ung:\n- Di ung Ibuprofen, noi me day.\n\nThuoc dang dung:\n- Losartan 50mg, uong 1 lan/ngay.\n- Atorvastatin 20mg, uong 1 lan toi.\n\nXet nghiem:\nCreatinine: 180 umol/L, tham chieu 60-110, cao.\neGFR: 42 mL/min, tham chieu 90-120, thap."
+    }
+  ],
+  "clinical_summary": {
+    "allergies": [
+      {
+        "name": "Allergy",
+        "value": "Ibuprofen, noi me day.",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "- Di ung Ibuprofen, noi me day.",
+          "char_start": null,
+          "char_end": null,
+          "match_type": null,
+          "confidence": null
+        }
+      }
+    ],
+    "chronic_diseases": [
+      {
+        "name": "Chronic disease",
+        "value": "Tang huyet ap tu nam 2018.",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "- Tang huyet ap tu nam 2018.",
+          "char_start": null,
+          "char_end": null,
+          "match_type": null,
+          "confidence": null
+        }
+      },
+      {
+        "name": "Chronic disease",
+        "value": "Suy than man tinh CKD stage 3.",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "- Suy than man tinh CKD stage 3.",
+          "char_start": null,
+          "char_end": null,
+          "match_type": null,
+          "confidence": null
+        }
+      }
+    ],
+    "active_medications": [
+      {
+        "name": "Active medication",
+        "value": "Losartan 50mg, uong 1 lan/ngay.",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "- Losartan 50mg, uong 1 lan/ngay.",
+          "char_start": null,
+          "char_end": null,
+          "match_type": null,
+          "confidence": null
+        }
+      },
+      {
+        "name": "Active medication",
+        "value": "Atorvastatin 20mg, uong 1 lan toi.",
+        "status": "active",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "- Atorvastatin 20mg, uong 1 lan toi.",
+          "char_start": null,
+          "char_end": null,
+          "match_type": null,
+          "confidence": null
+        }
+      }
+    ],
+    "abnormal_labs": [
+      {
+        "test_name": "Creatinine",
+        "value": "180",
+        "unit": "umol/L",
+        "reference_range": "60-110",
+        "interpretation": "high",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "Creatinine: 180 umol/L, tham chieu 60-110, cao.",
+          "char_start": null,
+          "char_end": null,
+          "match_type": null,
+          "confidence": null
+        }
+      },
+      {
+        "test_name": "eGFR",
+        "value": "42",
+        "unit": "mL/min",
+        "reference_range": "90-120",
+        "interpretation": "low",
+        "source": {
+          "document_id": "DOC-001",
+          "page": 1,
+          "evidence_text": "eGFR: 42 mL/min, tham chieu 90-120, thap.",
+          "char_start": null,
+          "char_end": null,
+          "match_type": null,
+          "confidence": null
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "source_pdf": "syn-002_emr.pdf",
+    "parser": "synthetic_generator_v1",
+    "synthetic": true
+  }
+}

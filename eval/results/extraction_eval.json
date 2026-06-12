@@ -1,0 +1,44 @@
+{
+  "metric": "extraction_pass_rate",
+  "passed": 3,
+  "total": 3,
+  "pass_rate": 100.0,
+  "results": [
+    {
+      "file": "syn-001_emr.json",
+      "checks": {
+        "patient_id": true,
+        "allergies": true,
+        "medications": true,
+        "abnormal_labs": true,
+        "medication_terms": true,
+        "roundtrip_parsed": true
+      },
+      "status": "PASS"
+    },
+    {
+      "file": "syn-002_emr.json",
+      "checks": {
+        "patient_id": true,
+        "allergies": true,
+        "medications": true,
+        "abnormal_labs": true,
+        "medication_terms": true,
+        "roundtrip_parsed": true
+      },
+      "status": "PASS"
+    },
+    {
+      "file": "syn-003_emr.json",
+      "checks": {
+        "patient_id": true,
+        "allergies": true,
+        "medications": true,
+        "abnormal_labs": true,
+        "medication_terms": true,
+        "roundtrip_parsed": true
+      },
+      "status": "PASS"
+    }
+  ]
+}

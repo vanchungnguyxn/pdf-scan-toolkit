@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "synthetic_file": "syn-001_emr.json",
+      "expected_patient_id": "SYN-001",
+      "min_allergies": 1,
+      "min_medications": 1,
+      "min_abnormal_labs": 1,
+      "required_medication_terms": ["metformin", "amlodipine"]
+    },
+    {
+      "synthetic_file": "syn-002_emr.json",
+      "expected_patient_id": "SYN-002",
+      "min_allergies": 1,
+      "min_medications": 1,
+      "min_abnormal_labs": 1,
+      "required_medication_terms": ["losartan", "atorvastatin"]
+    },
+    {
+      "synthetic_file": "syn-003_emr.json",
+      "expected_patient_id": "SYN-003",
+      "min_allergies": 1,
+      "min_medications": 1,
+      "min_abnormal_labs": 1,
+      "required_medication_terms": ["insulin"]
+    }
+  ]
+}

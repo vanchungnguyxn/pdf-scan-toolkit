@@ -3,7 +3,7 @@
     "patient_id": "PT-004",
     "name": "Pham Thi D",
     "dob": "1990-04-15",
-    "gender": "Nu"
+    "gender": "female"
   },
   "documents": [
     {
@@ -32,7 +32,11 @@
         "source": {
           "document_id": "DOC-001",
           "page": 1,
-          "evidence_text": "Di ung: Di ung hai san, noi me day."
+          "evidence_text": "Di ung: Di ung hai san, noi me day.",
+          "char_start": null,
+          "char_end": null,
+          "match_type": null,
+          "confidence": null
         }
       }
     ],
@@ -44,7 +48,11 @@
         "source": {
           "document_id": "DOC-001",
           "page": 1,
-          "evidence_text": "Tien su benh: Dai thao duong thai ky nam 2024."
+          "evidence_text": "Tien su benh: Dai thao duong thai ky nam 2024.",
+          "char_start": null,
+          "char_end": null,
+          "match_type": null,
+          "confidence": null
         }
       }
     ],
@@ -56,7 +64,11 @@
         "source": {
           "document_id": "DOC-001",
           "page": 1,
-          "evidence_text": "- Metformin 500mg, uong 1 lan/ngay."
+          "evidence_text": "- Metformin 500mg, uong 1 lan/ngay.",
+          "char_start": null,
+          "char_end": null,
+          "match_type": null,
+          "confidence": null
         }
       }
     ],
@@ -70,13 +82,51 @@
         "source": {
           "document_id": "DOC-002",
           "page": 2,
-          "evidence_text": "Glucose: 10.5 mmol/L, tham chieu 3.9-5.6, cao."
+          "evidence_text": "Glucose: 10.5 mmol/L, tham chieu 3.9-5.6, cao.",
+          "char_start": null,
+          "char_end": null,
+          "match_type": null,
+          "confidence": null
         }
       }
     ]
   },
   "metadata": {
     "source_pdf": "patient_004_mixed.pdf",
-    "parser": "rule_regex_v0"
+    "parser": "rule_regex_v1",
+    "patient_normalization": {
+      "patient_id": "PT-004",
+      "name": "Pham Thi D",
+      "dob": "1990-04-15",
+      "gender": "female",
+      "age": null,
+      "normalization_confidence": 1.0,
+      "source_spans": {
+        "patient_id": {
+          "page": 1,
+          "text": "Ma benh nhan: PT-004",
+          "start": 48,
+          "end": 54
+        },
+        "name": {
+          "page": 1,
+          "text": "Ho ten: Pham Thi D",
+          "start": 63,
+          "end": 73
+        },
+        "dob": {
+          "page": 1,
+          "text": "Ngay sinh: 1990-04-15",
+          "start": 85,
+          "end": 95
+        },
+        "gender": {
+          "page": 1,
+          "text": "Gioi tinh: Nu",
+          "start": 107,
+          "end": 109
+        }
+      }
+    }
   }
 }
